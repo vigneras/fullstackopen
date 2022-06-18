@@ -1,5 +1,7 @@
 import { useState } from 'react'
-import Person from './components/Person'
+import Persons from './components/Persons'
+import PersonForm from './components/PersonForm'
+import PersonFilter from './components/PersonFilter'
 
 const App = () => {
    const [persons, setPersons] = useState([
@@ -8,71 +10,19 @@ const App = () => {
     { name: 'Dan Abramov', number: '12-43-234345', id: 3 },
     { name: 'Mary Poppendieck', number: '39-23-6423122', id: 4 }
   ])
-  const [newName, setNewName] = useState('')
-  const [newNumber, setNewNumber] = useState('')
   const [newFilter, setNewFilter] = useState('')
-
-
-  const handleNameChange = (event) => {
-    console.log(event)
-    setNewName(event.target.value)
-  }
   
-  const handleNumberChange = (event) => {
-    console.log(event)
-    setNewNumber(event.target.value)
-  }
-  
-  const handleFilterChange = (event) => {
-    console.log(event)
-    setNewFilter(event.target.value)
-  }
-  
-  const addPerson =  (event) => {
-    event.preventDefault()
-    console.log(event, persons, newName, newNumber)
-    if (persons.find(p => p.name === newName)) {
-      alert(`Provided name ${newName} already exists in our db`)
-      return
-    }
-    const personObject = {
-      name: newName,
-      number: newNumber,
-    }
-    setPersons(persons.concat(personObject))
-    setNewName('')
-    setNewNumber('')
-  }
 
   return (
     <div>
       <h2>Phonebook</h2>
-      Filter shown with: <input 
-                            value={newFilter}
-                            onChange={handleFilterChange} />
-      
-      <form onSubmit={addPerson}>
-        <div>
-          name: <input 
-                  value={newName}
-                  onChange={handleNameChange} />
-        </div>
-        <div>
-          number: <input 
-                  value={newNumber}
-                  onChange={handleNumberChange} />
-        </div>
-        <div>
-          <button type="submit">add</button>
-        </div>
-      </form>
+      <PersonFilter newfilter={newFilter} setNewFilter={setNewFilter} />
+      <h3>Add a new</h3>
+      <PersonForm persons={persons} setPersons={setPersons} />
       <h2>Numbers</h2>
-      <ul>
-      {persons.filter(person => 
-                      person.name.toUpperCase().includes(newFilter.toUpperCase()))
-              .map(person => <li> <Person person={person} /> </li>)
-      }
-      </ul>
+      
+      <Persons newFilter={newFilter} persons={persons} />
+      
     </div>
   )
 }
