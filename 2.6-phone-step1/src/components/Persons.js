@@ -9,7 +9,7 @@ const Persons = ({ newFilter, persons }) => {
     <ul>
         {persons.filter(person => 
                       person.name.toUpperCase().includes(newFilter.toUpperCase()))
-              .map(person => <li> <Person key={person.name} person={person} /> </li>)
+              .map(person => <li key={person.id}> <Person  person={person} /> </li>)
       }
     </ul>
 

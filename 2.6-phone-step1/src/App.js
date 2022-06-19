@@ -12,7 +12,7 @@ const App = () => {
   useEffect(() => {
     console.log('effect')
     axios
-      .get('http://ec2-35-88-179-67.us-west-2.compute.amazonaws.com:3001/persons')
+      .get('http://ec2-100-21-61-59.us-west-2.compute.amazonaws.com:3001/persons')
       .then(response => {
         console.log('promise fulfilled')
         setPersons(response.data)

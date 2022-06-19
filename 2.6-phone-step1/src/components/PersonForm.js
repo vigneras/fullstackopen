@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import axios from 'axios'
 
 const PersonForm = ({ persons, setPersons }) => { 
   // console.log(person)
@@ -26,9 +27,17 @@ const PersonForm = ({ persons, setPersons }) => {
       name: newName,
       number: newNumber,
     }
-    setPersons(persons.concat(personObject))
-    setNewName('')
-    setNewNumber('')
+    
+    axios
+    .post('http://ec2-100-21-61-59.us-west-2.compute.amazonaws.com:3001/persons', personObject)
+    .then(response => {
+      console.log(response)
+      setPersons(persons.concat(personObject))
+      setNewName('')
+      setNewNumber('')
+    })
+    
+    
   }
 
   
