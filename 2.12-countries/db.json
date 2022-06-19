@@ -1,0 +1,2668 @@
+[
+  {
+"name":{
+  "common": "Germany", "official": "Federal Republic of Germany", "nativeName":{
+    "deu":{
+    "official": "Bundesrepublik Deutschland", "common":"Deutschland"}
+  }
+  }
+, "tld": [".de"], "cca2": "DE", "ccn3": "276", "cca3": "DEU", "cioc": "GER", "independent": true, "status": "officially-assigned", "unMember": true, "currencies":{
+  "EUR":{
+  "name": "Euro", "symbol":"€"}
+  }
+, "idd":{
+"root": "+4", "suffixes":["9"]}
+, "capital": ["Berlin"], "altSpellings": ["DE", "Federal Republic of Germany", "Bundesrepublik Deutschland"], "region": "Europe", "subregion": "Western Europe", "languages":{
+"deu":"German"}
+, "translations":{
+  "ara":{
+  "official": "جمهورية ألمانيا الاتحادية", "common":"ألمانيا"}
+  , "ces":{
+  "official": "Spolková republika Německo", "common":"Německo"}
+  , "cym":{
+  "official": "Federal Republic of Germany", "common":"Germany"}
+  , "deu":{
+  "official": "Bundesrepublik Deutschland", "common":"Deutschland"}
+  , "est":{
+  "official": "Saksamaa Liitvabariik", "common":"Saksamaa"}
+  , "fin":{
+  "official": "Saksan liittotasavalta", "common":"Saksa"}
+  , "fra":{
+  "official": "République fédérale d'Allemagne", "common":"Allemagne"}
+  , "hrv":{
+  "official": "Njemačka Federativna Republika", "common":"Njemačka"}
+  , "hun":{
+  "official": "Német Szövetségi Köztársaság", "common":"Németország"}
+  , "ita":{
+  "official": "Repubblica federale di Germania", "common":"Germania"}
+  , "jpn":{
+  "official": "ドイツ連邦共和国", "common":"ドイツ"}
+  , "kor":{
+  "official": "독일 연방 공화국", "common":"독일"}
+  , "nld":{
+  "official": "Bondsrepubliek Duitsland", "common":"Duitsland"}
+  , "per":{
+  "official": "جمهوری فدرال آلمان", "common":"آلمان"}
+  , "pol":{
+  "official": "Republika Federalna Niemiec", "common":"Niemcy"}
+  , "por":{
+  "official": "República Federal da Alemanha", "common":"Alemanha"}
+  , "rus":{
+  "official": "Федеративная Республика Германия", "common":"Германия"}
+  , "slk":{
+  "official": "Nemecká spolková republika", "common":"Nemecko"}
+  , "spa":{
+  "official": "República Federal de Alemania", "common":"Alemania"}
+  , "swe":{
+  "official": "Förbundsrepubliken Tyskland", "common":"Tyskland"}
+  , "urd":{
+  "official": "وفاقی جمہوریہ جرمنی", "common":"جرمنی"}
+  , "zho":{
+  "official": "德意志联邦共和国", "common":"德国"}
+  }
+, "latlng": [51.0, 9.0], "landlocked": false, "borders": ["AUT", "BEL", "CZE", "DNK", "FRA", "LUX", "NLD", "POL", "CHE"], "area": 357114.0, "demonyms":{
+  "eng":{
+  "f": "German", "m":"German"}
+  , "fra":{
+  "f": "Allemande", "m":"Allemand"}
+  }
+, "flag": "\uD83C\uDDE9\uD83C\uDDEA", "maps":{
+"googleMaps": "https://goo.gl/maps/mD9FBMq1nvXUBrkv6", "openStreetMaps":"https://www.openstreetmap.org/relation/51477"}
+, "population": 83240525, "gini":{
+"2016":31.9}
+, "fifa": "GER", "car":{
+"signs": ["DY"], "side":"right"}
+, "timezones": ["UTC+01:00"], "continents": ["Europe"], "flags":{
+"png": "https://flagcdn.com/w320/de.png", "svg":"https://flagcdn.com/de.svg"}
+, "coatOfArms":{
+"png": "https://mainfacts.com/media/images/coats_of_arms/de.png", "svg":"https://mainfacts.com/media/images/coats_of_arms/de.svg"}
+, "startOfWeek": "monday", "capitalInfo":{
+"latlng":[52.52, 13.4]}
+, "postalCode":{
+"format": "#####", "regex":"^(\\d{5})$"}
+  }
+
+  ,
+  {
+"name":{
+  "common": "Morocco", "official": "Kingdom of Morocco", "nativeName":{
+    "ara":{
+    "official": "المملكة المغربية", "common":"المغرب"}
+    , "ber":{
+    "official": "ⵜⴰⴳⵍⴷⵉⵜ ⵏ ⵍⵎⵖⵔⵉⴱ", "common":"ⵍⵎⴰⵖⵔⵉⴱ"}
+  }
+  }
+, "tld": [".ma", "المغرب."], "cca2": "MA", "ccn3": "504", "cca3": "MAR", "cioc": "MAR", "independent": true, "status": "officially-assigned", "unMember": true, "currencies":{
+  "MAD":{
+  "name": "Moroccan dirham", "symbol":"د.م."}
+  }
+, "idd":{
+"root": "+2", "suffixes":["12"]}
+, "capital": ["Rabat"], "altSpellings": ["MA", "Kingdom of Morocco", "Al-Mamlakah al-Maġribiyah"], "region": "Africa", "subregion": "Northern Africa", "languages":{
+"ara": "Arabic", "ber":"Berber"}
+, "translations":{
+  "ara":{
+  "official": "المملكة المغربية", "common":"المغرب"}
+  , "ces":{
+  "official": "Marocké království", "common":"Maroko"}
+  , "cym":{
+  "official": "Kingdom of Morocco", "common":"Morocco"}
+  , "deu":{
+  "official": "Königreich Marokko", "common":"Marokko"}
+  , "est":{
+  "official": "Maroko Kuningriik", "common":"Maroko"}
+  , "fin":{
+  "official": "Marokon kuningaskunta", "common":"Marokko"}
+  , "fra":{
+  "official": "Royaume du Maroc", "common":"Maroc"}
+  , "hrv":{
+  "official": "Kraljevina Maroko", "common":"Maroko"}
+  , "hun":{
+  "official": "Marokkói Királyság", "common":"Marokkó"}
+  , "ita":{
+  "official": "Regno del Marocco", "common":"Marocco"}
+  , "jpn":{
+  "official": "モロッコ王国", "common":"モロッコ"}
+  , "kor":{
+  "official": "모로코 왕국", "common":"모로코"}
+  , "nld":{
+  "official": "Koninkrijk Marokko", "common":"Marokko"}
+  , "per":{
+  "official": "پادشاهی مراکش", "common":"مراکش"}
+  , "pol":{
+  "official": "Królestwo Marokańskie", "common":"Maroko"}
+  , "por":{
+  "official": "Reino de Marrocos", "common":"Marrocos"}
+  , "rus":{
+  "official": "Королевство Марокко", "common":"Марокко"}
+  , "slk":{
+  "official": "Marocké kniežatstvo", "common":"Maroko"}
+  , "spa":{
+  "official": "Reino de Marruecos", "common":"Marruecos"}
+  , "swe":{
+  "official": "Konungariket Marocko", "common":"Marocko"}
+  , "urd":{
+  "official": "مملکتِ مراکش", "common":"مراکش"}
+  , "zho":{
+  "official": "摩洛哥王国", "common":"摩洛哥"}
+  }
+, "latlng": [32.0, -5.0], "landlocked": false, "borders": ["DZA", "ESH", "ESP"], "area": 446550.0, "demonyms":{
+  "eng":{
+  "f": "Moroccan", "m":"Moroccan"}
+  , "fra":{
+  "f": "Marocaine", "m":"Marocain"}
+  }
+, "flag": "\uD83C\uDDF2\uD83C\uDDE6", "maps":{
+"googleMaps": "https://goo.gl/maps/6oMv3dyBZg3iaXQ5A", "openStreetMaps":"https://www.openstreetmap.org/relation/3630439"}
+, "population": 36910558, "gini":{
+"2013":39.5}
+, "fifa": "MAR", "car":{
+"signs": ["MA"], "side":"right"}
+, "timezones": ["UTC"], "continents": ["Africa"], "flags":{
+"png": "https://flagcdn.com/w320/ma.png", "svg":"https://flagcdn.com/ma.svg"}
+, "coatOfArms":{
+"png": "https://mainfacts.com/media/images/coats_of_arms/ma.png", "svg":"https://mainfacts.com/media/images/coats_of_arms/ma.svg"}
+, "startOfWeek": "monday", "capitalInfo":{
+"latlng":[34.02, -6.82]}
+, "postalCode":{
+"format": "#####", "regex":"^(\\d{5})$"}
+  }
+
+  ,
+  {
+"name":{
+  "common": "Belgium", "official": "Kingdom of Belgium", "nativeName":{
+    "deu":{
+    "official": "Königreich Belgien", "common":"Belgien"}
+    , "fra":{
+    "official": "Royaume de Belgique", "common":"Belgique"}
+    , "nld":{
+    "official": "Koninkrijk België", "common":"België"}
+  }
+  }
+, "tld": [".be"], "cca2": "BE", "ccn3": "056", "cca3": "BEL", "cioc": "BEL", "independent": true, "status": "officially-assigned", "unMember": true, "currencies":{
+  "EUR":{
+  "name": "Euro", "symbol":"€"}
+  }
+, "idd":{
+"root": "+3", "suffixes":["2"]}
+, "capital": ["Brussels"], "altSpellings": ["BE", "België", "Belgie", "Belgien", "Belgique", "Kingdom of Belgium", "Koninkrijk België", "Royaume de Belgique", "Königreich Belgien"], "region": "Europe", "subregion": "Western Europe", "languages":{
+"deu": "German", "fra": "French", "nld":"Dutch"}
+, "translations":{
+  "ara":{
+  "official": "مملكة بلجيكا", "common":"بلجيكا"}
+  , "ces":{
+  "official": "Belgické království", "common":"Belgie"}
+  , "cym":{
+  "official": "Teyrnas Gwlad Belg", "common":"Gwlad Belg"}
+  , "deu":{
+  "official": "Königreich Belgien", "common":"Belgien"}
+  , "est":{
+  "official": "Belgia Kuningriik", "common":"Belgia"}
+  , "fin":{
+  "official": "Belgian kuningaskunta", "common":"Belgia"}
+  , "fra":{
+  "official": "Royaume de Belgique", "common":"Belgique"}
+  , "hrv":{
+  "official": "Kraljevina Belgija", "common":"Belgija"}
+  , "hun":{
+  "official": "Belga Királyság", "common":"Belgium"}
+  , "ita":{
+  "official": "Regno del Belgio", "common":"Belgio"}
+  , "jpn":{
+  "official": "ベルギー王国", "common":"ベルギー"}
+  , "kor":{
+  "official": "벨기에 왕국", "common":"벨기에"}
+  , "nld":{
+  "official": "Koninkrijk België", "common":"België"}
+  , "per":{
+  "official": "پادشاهی بلژیک", "common":"بلژیک"}
+  , "pol":{
+  "official": "Królestwo Belgii", "common":"Belgia"}
+  , "por":{
+  "official": "Reino da Bélgica", "common":"Bélgica"}
+  , "rus":{
+  "official": "Королевство Бельгия", "common":"Бельгия"}
+  , "slk":{
+  "official": "Belgické kráľovstvo", "common":"Belgicko"}
+  , "spa":{
+  "official": "Reino de Bélgica", "common":"Bélgica"}
+  , "swe":{
+  "official": "Konungariket Belgien", "common":"Belgien"}
+  , "urd":{
+  "official": "مملکتِ بلجئیم", "common":"بلجئیم"}
+  , "zho":{
+  "official": "比利时王国", "common":"比利时"}
+  }
+, "latlng": [50.83333333, 4.0], "landlocked": false, "borders": ["FRA", "DEU", "LUX", "NLD"], "area": 30528.0, "demonyms":{
+  "eng":{
+  "f": "Belgian", "m":"Belgian"}
+  , "fra":{
+  "f": "Belge", "m":"Belge"}
+  }
+, "flag": "\uD83C\uDDE7\uD83C\uDDEA", "maps":{
+"googleMaps": "https://goo.gl/maps/UQQzat85TCtPRXAL8", "openStreetMaps":"https://www.openstreetmap.org/relation/52411"}
+, "population": 11555997, "gini":{
+"2018":27.2}
+, "fifa": "BEL", "car":{
+"signs": ["B"], "side":"right"}
+, "timezones": ["UTC+01:00"], "continents": ["Europe"], "flags":{
+"png": "https://flagcdn.com/w320/be.png", "svg":"https://flagcdn.com/be.svg"}
+, "coatOfArms":{
+"png": "https://mainfacts.com/media/images/coats_of_arms/be.png", "svg":"https://mainfacts.com/media/images/coats_of_arms/be.svg"}
+, "startOfWeek": "monday", "capitalInfo":{
+"latlng":[50.83, 4.33]}
+, "postalCode":{
+"format": "####", "regex":"^(\\d{4})$"}
+  }
+
+  ,
+  {
+"name":{
+  "common": "Cook Islands", "official": "Cook Islands", "nativeName":{
+    "eng":{
+    "official": "Cook Islands", "common":"Cook Islands"}
+    , "rar":{
+    "official": "Kūki 'Āirani", "common":"Kūki 'Āirani"}
+  }
+  }
+, "tld": [".ck"], "cca2": "CK", "ccn3": "184", "cca3": "COK", "cioc": "COK", "independent": false, "status": "officially-assigned", "unMember": false, "currencies":{
+  "CKD":{
+  "name": "Cook Islands dollar", "symbol":"$"}
+  , "NZD":{
+  "name": "New Zealand dollar", "symbol":"$"}
+  }
+, "idd":{
+"root": "+6", "suffixes":["82"]}
+, "capital": ["Avarua"], "altSpellings": ["CK", "Kūki 'Āirani"], "region": "Oceania", "subregion": "Polynesia", "languages":{
+"eng": "English", "rar":"Cook Islands Māori"}
+, "translations":{
+  "ara":{
+  "official": "جزر كوك", "common":"جزر كوك"}
+  , "ces":{
+  "official": "Cookovy ostrovy", "common":"Cookovy ostrovy"}
+  , "cym":{
+  "official": "Ynysoedd Cook", "common":"Ynysoedd Cook"}
+  , "deu":{
+  "official": "Cookinseln", "common":"Cookinseln"}
+  , "est":{
+  "official": "Cooki saared", "common":"Cooki saared"}
+  , "fin":{
+  "official": "Cookinsaaret", "common":"Cookinsaaret"}
+  , "fra":{
+  "official": "Îles Cook", "common":"Îles Cook"}
+  , "hrv":{
+  "official": "Cook Islands", "common":"Cookovo Otočje"}
+  , "hun":{
+  "official": "Cook-szigetek", "common":"Cook-szigetek"}
+  , "ita":{
+  "official": "Isole Cook", "common":"Isole Cook"}
+  , "jpn":{
+  "official": "クック諸島", "common":"クック諸島"}
+  , "kor":{
+  "official": "쿡 제도", "common":"쿡 제도"}
+  , "nld":{
+  "official": "Cook eilanden", "common":"Cookeilanden"}
+  , "per":{
+  "official": "جزایر کوک", "common":"جزایر کوک"}
+  , "pol":{
+  "official": "Wyspy Cooka", "common":"Wyspy Cooka"}
+  , "por":{
+  "official": "Ilhas Cook", "common":"Ilhas Cook"}
+  , "rus":{
+  "official": "острова Кука", "common":"Острова Кука"}
+  , "slk":{
+  "official": "Cookove ostrovy", "common":"Cookove ostrovy"}
+  , "spa":{
+  "official": "Islas Cook", "common":"Islas Cook"}
+  , "swe":{
+  "official": "Cooköarna", "common":"Cooköarna"}
+  , "urd":{
+  "official": "جزائر کک", "common":"جزائر کک"}
+  , "zho":{
+  "official": "库克群岛", "common":"库克群岛"}
+  }
+, "latlng": [-21.23333333, -159.76666666], "landlocked": false, "area": 236.0, "demonyms":{
+  "eng":{
+  "f": "Cook Islander", "m":"Cook Islander"}
+  , "fra":{
+  "f": "Cookienne", "m":"Cookien"}
+  }
+, "flag": "\uD83C\uDDE8\uD83C\uDDF0", "maps":{
+"googleMaps": "https://goo.gl/maps/nrGZrvWRGB4WHgDC9", "openStreetMaps":"https://www.openstreetmap.org/relation/2184233"}
+, "population": 18100, "fifa": "COK", "car":{
+"signs": ["NZ"], "side":"left"}
+, "timezones": ["UTC-10:00"], "continents": ["Oceania"], "flags":{
+"png": "https://flagcdn.com/w320/ck.png", "svg":"https://flagcdn.com/ck.svg"}
+, "coatOfArms":{
+"png": "https://mainfacts.com/media/images/coats_of_arms/ck.png", "svg":"https://mainfacts.com/media/images/coats_of_arms/ck.svg"}
+, "startOfWeek": "monday", "capitalInfo":{
+"latlng":[-21.2, -159.77]}
+  }
+
+  ,
+  {
+"name":{
+  "common": "Ecuador", "official": "Republic of Ecuador", "nativeName":{
+    "spa":{
+    "official": "República del Ecuador", "common":"Ecuador"}
+  }
+  }
+, "tld": [".ec"], "cca2": "EC", "ccn3": "218", "cca3": "ECU", "cioc": "ECU", "independent": true, "status": "officially-assigned", "unMember": true, "currencies":{
+  "USD":{
+  "name": "United States dollar", "symbol":"$"}
+  }
+, "idd":{
+"root": "+5", "suffixes":["93"]}
+, "capital": ["Quito"], "altSpellings": ["EC", "Republic of Ecuador", "República del Ecuador"], "region": "Americas", "subregion": "South America", "languages":{
+"spa":"Spanish"}
+, "translations":{
+  "ara":{
+  "official": "جمهورية الإكوادور", "common":"الإكوادور"}
+  , "ces":{
+  "official": "Ekvádorská republika", "common":"Ekvádor"}
+  , "cym":{
+  "official": "Gweriniaeth Ecwador", "common":"Ecwador"}
+  , "deu":{
+  "official": "Republik Ecuador", "common":"Ecuador"}
+  , "est":{
+  "official": "Ecuadori Vabariik", "common":"Ecuador"}
+  , "fin":{
+  "official": "Ecuadorin tasavalta", "common":"Ecuador"}
+  , "fra":{
+  "official": "République de l'Équateur", "common":"Équateur"}
+  , "hrv":{
+  "official": "Republika Ekvador", "common":"Ekvador"}
+  , "hun":{
+  "official": "Ecuadori Köztársaság", "common":"Ecuador"}
+  , "ita":{
+  "official": "Repubblica dell'Ecuador", "common":"Ecuador"}
+  , "jpn":{
+  "official": "エクアドル共和国", "common":"エクアドル"}
+  , "kor":{
+  "official": "에콰도르 공화국", "common":"에콰도르"}
+  , "nld":{
+  "official": "Republiek Ecuador", "common":"Ecuador"}
+  , "per":{
+  "official": "جمهوری اکوادور", "common":"اکوادور"}
+  , "pol":{
+  "official": "Ekwador", "common":"Ekwador"}
+  , "por":{
+  "official": "República do Equador", "common":"Equador"}
+  , "rus":{
+  "official": "Республика Эквадор", "common":"Эквадор"}
+  , "slk":{
+  "official": "Ekvádorská republika", "common":"Ekvádor"}
+  , "spa":{
+  "official": "República del Ecuador", "common":"Ecuador"}
+  , "swe":{
+  "official": "Republiken Ecuador", "common":"Ecuador"}
+  , "urd":{
+  "official": "جمہوریہ ایکوڈور", "common":"ایکواڈور"}
+  , "zho":{
+  "official": "厄瓜多尔共和国", "common":"厄瓜多尔"}
+  }
+, "latlng": [-2.0, -77.5], "landlocked": false, "borders": ["COL", "PER"], "area": 276841.0, "demonyms":{
+  "eng":{
+  "f": "Ecuadorean", "m":"Ecuadorean"}
+  , "fra":{
+  "f": "Équatorienne", "m":"Équatorien"}
+  }
+, "flag": "\uD83C\uDDEA\uD83C\uDDE8", "maps":{
+"googleMaps": "https://goo.gl/maps/TbX8hUW4gcbRPZiK7", "openStreetMaps":"https://www.openstreetmap.org/relation/108089"}
+, "population": 17643060, "gini":{
+"2019":45.7}
+, "fifa": "ECU", "car":{
+"signs": ["EC"], "side":"right"}
+, "timezones": ["UTC-06:00", "UTC-05:00"], "continents": ["South America"], "flags":{
+"png": "https://flagcdn.com/w320/ec.png", "svg":"https://flagcdn.com/ec.svg"}
+, "coatOfArms":{
+"png": "https://mainfacts.com/media/images/coats_of_arms/ec.png", "svg":"https://mainfacts.com/media/images/coats_of_arms/ec.svg"}
+, "startOfWeek": "monday", "capitalInfo":{
+"latlng":[-0.22, -78.5]}
+, "postalCode":{
+"format": "@####@", "regex":"^([a-zA-Z]\\d{4}[a-zA-Z])$"}
+  }
+
+  ,
+  {
+"name":{
+  "common": "Saint Kitts and Nevis", "official": "Federation of Saint Christopher and Nevis", "nativeName":{
+    "eng":{
+    "official": "Federation of Saint Christopher and Nevis", "common":"Saint Kitts and Nevis"}
+  }
+  }
+, "tld": [".kn"], "cca2": "KN", "ccn3": "659", "cca3": "KNA", "cioc": "SKN", "independent": true, "status": "officially-assigned", "unMember": true, "currencies":{
+  "XCD":{
+  "name": "Eastern Caribbean dollar", "symbol":"$"}
+  }
+, "idd":{
+"root": "+1", "suffixes":["869"]}
+, "capital": ["Basseterre"], "altSpellings": ["KN", "Federation of Saint Christopher and Nevis"], "region": "Americas", "subregion": "Caribbean", "languages":{
+"eng":"English"}
+, "translations":{
+  "ara":{
+  "official": "اتحاد القديس كريستوفر ونيفيس", "common":"سانت كيتس ونيفيس"}
+  , "ces":{
+  "official": "Federace Sv. Kryštof a Nevis", "common":"Svatý Kryštof a Nevis"}
+  , "cym":{
+  "official": "Federation of Saint Christopher and Nevis", "common":"Saint Kitts and Nevis"}
+  , "deu":{
+  "official": "Föderation von St. Kitts und Nevis", "common":"St. Kitts und Nevis"}
+  , "est":{
+  "official": "Saint Kittsi ja Nevise Föderatsioon", "common":"Saint Kitts ja Nevis"}
+  , "fin":{
+  "official": "Saint Christopherin ja Nevisin federaatio", "common":"Saint Kitts ja Nevis"}
+  , "fra":{
+  "official": "Fédération de Saint-Christophe-et-Niévès", "common":"Saint-Christophe-et-Niévès"}
+  , "hrv":{
+  "official": "Federacija Sv.Kristofora i Nevisa", "common":"Sveti Kristof i Nevis"}
+  , "hun":{
+  "official": "Saint Christopher és Nevis Államszövetség", "common":"Saint Kitts és Nevis"}
+  , "ita":{
+  "official": "Federazione di Saint Christopher e Nevis", "common":"Saint Kitts e Nevis"}
+  , "jpn":{
+  "official": "セントクリストファーNevis連盟", "common":"セントクリストファー・ネイビス"}
+  , "kor":{
+  "official": "세인트키츠 네비스 연방", "common":"세인트키츠 네비스"}
+  , "nld":{
+  "official": "Federatie van Saint Kitts en Nevis", "common":"Saint Kitts en Nevis"}
+  , "per":{
+  "official": "فدراسیون سنت کیتس و نویس", "common":"سنت کیتس و نویس"}
+  , "pol":{
+  "official": "Federacja Saint Kitts i Nevis", "common":"Saint Kitts i Nevis"}
+  , "por":{
+  "official": "Federação de São Cristóvão e Nevis", "common":"São Cristóvão e Nevis"}
+  , "rus":{
+  "official": "Федерация Сент-Кристофер и Н е в и с", "common":"Сент-Китс и Невис"}
+  , "slk":{
+  "official": "Feder໡cia Svätého Krištofa a Nevisu", "common":"Svätý Krištof a Nevis"}
+  , "spa":{
+  "official": "Federación de San Cristóbal y Nevis", "common":"San Cristóbal y Nieves"}
+  , "swe":{
+  "official": "Federationen Saint Kitts och Nevis", "common":"Saint Kitts och Nevis"}
+  , "urd":{
+  "official": "وفاقِ سینٹ کیٹز و ناویس", "common":"سینٹ کیٹز و ناویس"}
+  , "zho":{
+  "official": "圣克里斯托弗和尼维斯联邦", "common":"圣基茨和尼维斯"}
+  }
+, "latlng": [17.33333333, -62.75], "landlocked": false, "area": 261.0, "demonyms":{
+  "eng":{
+  "f": "Kittitian or Nevisian", "m":"Kittitian or Nevisian"}
+  , "fra":{
+  "f": "Kittitienne-et-nevicienne", "m":"Kittitien-et-nevicien"}
+  }
+, "flag": "\uD83C\uDDF0\uD83C\uDDF3", "maps":{
+"googleMaps": "https://goo.gl/maps/qiaVwcLVTXX3eoTNA", "openStreetMaps":"https://www.openstreetmap.org/relation/536899"}
+, "population": 53192, "fifa": "SKN", "car":{
+"signs": ["KN"], "side":"left"}
+, "timezones": ["UTC-04:00"], "continents": ["North America"], "flags":{
+"png": "https://flagcdn.com/w320/kn.png", "svg":"https://flagcdn.com/kn.svg"}
+, "coatOfArms":{
+"png": "https://mainfacts.com/media/images/coats_of_arms/kn.png", "svg":"https://mainfacts.com/media/images/coats_of_arms/kn.svg"}
+, "startOfWeek": "monday", "capitalInfo":{
+"latlng":[17.3, -62.72]}
+  }
+
+  ,
+  {
+"name":{
+  "common": "Rwanda", "official": "Republic of Rwanda", "nativeName":{
+    "eng":{
+    "official": "Republic of Rwanda", "common":"Rwanda"}
+    , "fra":{
+    "official": "République rwandaise", "common":"Rwanda"}
+    , "kin":{
+    "official": "Repubulika y'u Rwanda", "common":"Rwanda"}
+  }
+  }
+, "tld": [".rw"], "cca2": "RW", "ccn3": "646", "cca3": "RWA", "cioc": "RWA", "independent": true, "status": "officially-assigned", "unMember": true, "currencies":{
+  "RWF":{
+  "name": "Rwandan franc", "symbol":"Fr"}
+  }
+, "idd":{
+"root": "+2", "suffixes":["50"]}
+, "capital": ["Kigali"], "altSpellings": ["RW", "Republic of Rwanda", "Repubulika y'u Rwanda", "République du Rwanda"], "region": "Africa", "subregion": "Eastern Africa", "languages":{
+"eng": "English", "fra": "French", "kin":"Kinyarwanda"}
+, "translations":{
+  "ara":{
+  "official": "جمهورية رواندا", "common":"رواندا"}
+  , "ces":{
+  "official": "Rwandská republika", "common":"Rwanda"}
+  , "cym":{
+  "official": "Republic of Rwanda", "common":"Rwanda"}
+  , "deu":{
+  "official": "Republik Ruanda", "common":"Ruanda"}
+  , "est":{
+  "official": "Rwanda Vabariik", "common":"Rwanda"}
+  , "fin":{
+  "official": "Ruandan tasavalta", "common":"Ruanda"}
+  , "fra":{
+  "official": "République rwandaise", "common":"Rwanda"}
+  , "hrv":{
+  "official": "Republika Ruandi", "common":"Ruanda"}
+  , "hun":{
+  "official": "Ruandai Köztársaság", "common":"Ruanda"}
+  , "ita":{
+  "official": "Repubblica del Ruanda", "common":"Ruanda"}
+  , "jpn":{
+  "official": "ルワンダ共和国", "common":"ルワンダ"}
+  , "kor":{
+  "official": "르완다 공화국", "common":"르완다"}
+  , "nld":{
+  "official": "Republiek Rwanda", "common":"Rwanda"}
+  , "per":{
+  "official": "جمهوری رواندا", "common":"رواندا"}
+  , "pol":{
+  "official": "Republika Rwandy", "common":"Rwanda"}
+  , "por":{
+  "official": "República do Ruanda", "common":"Ruanda"}
+  , "rus":{
+  "official": "Республика Руанда", "common":"Руанда"}
+  , "slk":{
+  "official": "Rwandská republika", "common":"Rwanda"}
+  , "spa":{
+  "official": "República de Rwanda", "common":"Ruanda"}
+  , "swe":{
+  "official": "Republiken Rwanda", "common":"Rwanda"}
+  , "urd":{
+  "official": "جمہوریہ روانڈا", "common":"روانڈا"}
+  , "zho":{
+  "official": "卢旺达共和国", "common":"卢旺达"}
+  }
+, "latlng": [-2.0, 30.0], "landlocked": true, "borders": ["BDI", "COD", "TZA", "UGA"], "area": 26338.0, "demonyms":{
+  "eng":{
+  "f": "Rwandan", "m":"Rwandan"}
+  , "fra":{
+  "f": "Rwandaise", "m":"Rwandais"}
+  }
+, "flag": "\uD83C\uDDF7\uD83C\uDDFC", "maps":{
+"googleMaps": "https://goo.gl/maps/j5xb5r7CLqjYbyP86", "openStreetMaps":"https://www.openstreetmap.org/relation/171496"}
+, "population": 12952209, "gini":{
+"2016":43.7}
+, "fifa": "RWA", "car":{
+"signs": ["RWA"], "side":"right"}
+, "timezones": ["UTC+02:00"], "continents": ["Africa"], "flags":{
+"png": "https://flagcdn.com/w320/rw.png", "svg":"https://flagcdn.com/rw.svg"}
+, "coatOfArms":{
+"png": "https://mainfacts.com/media/images/coats_of_arms/rw.png", "svg":"https://mainfacts.com/media/images/coats_of_arms/rw.svg"}
+, "startOfWeek": "monday", "capitalInfo":{
+"latlng":[-1.95, 30.05]}
+  }
+
+  ,
+  {
+"name":{
+  "common": "Guyana", "official": "Co-operative Republic of Guyana", "nativeName":{
+    "eng":{
+    "official": "Co-operative Republic of Guyana", "common":"Guyana"}
+  }
+  }
+, "tld": [".gy"], "cca2": "GY", "ccn3": "328", "cca3": "GUY", "cioc": "GUY", "independent": true, "status": "officially-assigned", "unMember": true, "currencies":{
+  "GYD":{
+  "name": "Guyanese dollar", "symbol":"$"}
+  }
+, "idd":{
+"root": "+5", "suffixes":["92"]}
+, "capital": ["Georgetown"], "altSpellings": ["GY", "Co-operative Republic of Guyana"], "region": "Americas", "subregion": "South America", "languages":{
+"eng":"English"}
+, "translations":{
+  "ara":{
+  "official": "جمهورية غيانا التعاونية", "common":"غيانا"}
+  , "ces":{
+  "official": "Kooperativní republika Guyana", "common":"Guyana"}
+  , "cym":{
+  "official": "Co-operative Republic of Guyana", "common":"Guyana"}
+  , "deu":{
+  "official": "Kooperative Republik Guyana", "common":"Guyana"}
+  , "est":{
+  "official": "Guyana Vabariik", "common":"Guyana"}
+  , "fin":{
+  "official": "Guayanan osuustoiminnallinen tasavalta", "common":"Guayana"}
+  , "fra":{
+  "official": "République coopérative de Guyana", "common":"Guyana"}
+  , "hrv":{
+  "official": "Zadruga Republika Gvajana", "common":"Gvajana"}
+  , "hun":{
+  "official": "Guyanai Szövetkezeti Köztársaság", "common":"Guyana"}
+  , "ita":{
+  "official": "Co -operative Republic of Guyana", "common":"Guyana"}
+  , "jpn":{
+  "official": "ガイアナの協同共和国", "common":"ガイアナ"}
+  , "kor":{
+  "official": "가이아나 협동 공화국", "common":"가이아나"}
+  , "nld":{
+  "official": "Coöperatieve Republiek Guyana", "common":"Guyana"}
+  , "per":{
+  "official": "جمهوری تعاونی گویان", "common":"گویان"}
+  , "pol":{
+  "official": "Kooperacyjna Republika Gujany", "common":"Gujana"}
+  , "por":{
+  "official": "Co -operative República da Guiana", "common":"Guiana"}
+  , "rus":{
+  "official": "Кооперативная Республика Гайана", "common":"Гайана"}
+  , "slk":{
+  "official": "Guyanská kooperatívna republika", "common":"Guyana"}
+  , "spa":{
+  "official": "República Cooperativa de Guyana", "common":"Guyana"}
+  , "swe":{
+  "official": "Kooperativa republiken Guyana", "common":"Guyana"}
+  , "urd":{
+  "official": "تعاونی جمہوریہ گیانا", "common":"گیانا"}
+  , "zho":{
+  "official": "圭亚那共和国", "common":"圭亚那"}
+  }
+, "latlng": [5.0, -59.0], "landlocked": false, "borders": ["BRA", "SUR", "VEN"], "area": 214969.0, "demonyms":{
+  "eng":{
+  "f": "Guyanese", "m":"Guyanese"}
+  , "fra":{
+  "f": "Guyanienne", "m":"Guyanien"}
+  }
+, "flag": "\uD83C\uDDEC\uD83C\uDDFE", "maps":{
+"googleMaps": "https://goo.gl/maps/DFsme2xEeugUAsCx5", "openStreetMaps":"https://www.openstreetmap.org/relation/287083"}
+, "population": 786559, "gini":{
+"1998":45.1}
+, "fifa": "GUY", "car":{
+"signs": ["GUY"], "side":"left"}
+, "timezones": ["UTC-04:00"], "continents": ["South America"], "flags":{
+"png": "https://flagcdn.com/w320/gy.png", "svg":"https://flagcdn.com/gy.svg"}
+, "coatOfArms":{
+"png": "https://mainfacts.com/media/images/coats_of_arms/gy.png", "svg":"https://mainfacts.com/media/images/coats_of_arms/gy.svg"}
+, "startOfWeek": "monday", "capitalInfo":{
+"latlng":[6.8, -58.15]}
+  }
+
+  ,
+  {
+"name":{
+  "common": "Northern Mariana Islands", "official": "Commonwealth of the Northern Mariana Islands", "nativeName":{
+    "cal":{
+    "official": "Commonwealth of the Northern Mariana Islands", "common":"Northern Mariana Islands"}
+    , "cha":{
+    "official": "Sankattan Siha Na Islas Mariånas", "common":"Na Islas Mariånas"}
+    , "eng":{
+    "official": "Commonwealth of the Northern Mariana Islands", "common":"Northern Mariana Islands"}
+  }
+  }
+, "tld": [".mp"], "cca2": "MP", "ccn3": "580", "cca3": "MNP", "independent": false, "status": "officially-assigned", "unMember": false, "currencies":{
+  "USD":{
+  "name": "United States dollar", "symbol":"$"}
+  }
+, "idd":{
+"root": "+1", "suffixes":["670"]}
+, "capital": ["Saipan"], "altSpellings": ["MP", "Commonwealth of the Northern Mariana Islands", "Sankattan Siha Na Islas Mariånas"], "region": "Oceania", "subregion": "Micronesia", "languages":{
+"cal": "Carolinian", "cha": "Chamorro", "eng":"English"}
+, "translations":{
+  "ara":{
+  "official": "كومونولث جزر ماريانا الشمالية", "common":"جزر ماريانا الشمالية"}
+  , "ces":{
+  "official": "Společenství Severních Marian", "common":"Severní Mariany"}
+  , "cym":{
+  "official": "Commonwealth of the Northern Mariana Islands", "common":"Northern Mariana Islands"}
+  , "deu":{
+  "official": "Commonwealth der Nördlichen Marianen", "common":"Nördliche Marianen"}
+  , "est":{
+  "official": "Põhja-Mariaani Ühendus", "common":"Põhja-Mariaanid"}
+  , "fin":{
+  "official": "Pohjois-Mariaanit", "common":"Pohjois-Mariaanit"}
+  , "fra":{
+  "official": "Commonwealth des îles Mariannes du Nord", "common":"Îles Mariannes du Nord"}
+  , "hrv":{
+  "official": "Zajednica je Sjeverni Marijanski otoci", "common":"Sjevernomarijanski otoci"}
+  , "hun":{
+  "official": "Északi-Mariana-szigetek", "common":"Északi-Mariana-szigetek"}
+  , "ita":{
+  "official": "Commonwealth delle Isole Marianne Settentrionali", "common":"Isole Marianne Settentrionali"}
+  , "jpn":{
+  "official": "北マリアナ諸島", "common":"北マリアナ諸島"}
+  , "kor":{
+  "official": "북마리아나 제도", "common":"북마리아나 제도"}
+  , "nld":{
+  "official": "Commonwealth van de Noordelijke Marianen", "common":"Noordelijke Marianeneilanden"}
+  , "per":{
+  "official": "جزایر ماریانای شمالی", "common":"جزایر ماریانای شمالی"}
+  , "pol":{
+  "official": "Wspólnota Marianów Północnych", "common":"Mariany Północne"}
+  , "por":{
+  "official": "Comunidade das Ilhas Marianas do Norte", "common":"Marianas Setentrionais"}
+  , "rus":{
+  "official": "Содружество Северных Марианских островов", "common":"Северные Марианские острова"}
+  , "slk":{
+  "official": "Spoločenstvo ostrovov Severné Mariány", "common":"Severné Mariány"}
+  , "spa":{
+  "official": "Mancomunidad de las Islas Marianas del Norte", "common":"Islas Marianas del Norte"}
+  , "swe":{
+  "official": "Nordmarianerna", "common":"Nordmarianerna"}
+  , "urd":{
+  "official": "دولتِ مشترکہ جزائر شمالی ماریانا", "common":"جزائر شمالی ماریانا"}
+  , "zho":{
+  "official": "北马里亚纳群岛", "common":"北马里亚纳群岛"}
+  }
+, "latlng": [15.2, 145.75], "landlocked": false, "area": 464.0, "demonyms":{
+  "eng":{
+  "f": "American", "m":"American"}
+  , "fra":{
+  "f": "Américaine", "m":"Américan"}
+  }
+, "flag": "\uD83C\uDDF2\uD83C\uDDF5", "maps":{
+"googleMaps": "https://goo.gl/maps/cpZ67knoRAcfu1417", "openStreetMaps":"https://www.openstreetmap.org/relation/306004"}
+, "population": 57557, "car":{
+"signs": ["USA"], "side":"right"}
+, "timezones": ["UTC+10:00"], "continents": ["Oceania"], "flags":{
+"png": "https://flagcdn.com/w320/mp.png", "svg":"https://flagcdn.com/mp.svg"}
+, "coatOfArms":{
+  }
+, "startOfWeek": "monday", "capitalInfo":{
+"latlng":[15.2, 145.75]}
+  }
+
+  ,
+  {
+"name":{
+  "common": "Botswana", "official": "Republic of Botswana", "nativeName":{
+    "eng":{
+    "official": "Republic of Botswana", "common":"Botswana"}
+    , "tsn":{
+    "official": "Lefatshe la Botswana", "common":"Botswana"}
+  }
+  }
+, "tld": [".bw"], "cca2": "BW", "ccn3": "072", "cca3": "BWA", "cioc": "BOT", "independent": true, "status": "officially-assigned", "unMember": true, "currencies":{
+  "BWP":{
+  "name": "Botswana pula", "symbol":"P"}
+  }
+, "idd":{
+"root": "+2", "suffixes":["67"]}
+, "capital": ["Gaborone"], "altSpellings": ["BW", "Republic of Botswana", "Lefatshe la Botswana"], "region": "Africa", "subregion": "Southern Africa", "languages":{
+"eng": "English", "tsn":"Tswana"}
+, "translations":{
+  "ara":{
+  "official": "جمهورية بوتسوانا", "common":"بوتسوانا"}
+  , "ces":{
+  "official": "Botswanská republika", "common":"Botswana"}
+  , "cym":{
+  "official": "Republic of Botswana", "common":"Botswana"}
+  , "deu":{
+  "official": "Republik Botsuana", "common":"Botswana"}
+  , "est":{
+  "official": "Botswana Vabariik", "common":"Botswana"}
+  , "fin":{
+  "official": "Botswanan tasavalta", "common":"Botswana"}
+  , "fra":{
+  "official": "République du Botswana", "common":"Botswana"}
+  , "hrv":{
+  "official": "Republika Bocvana", "common":"Bocvana"}
+  , "hun":{
+  "official": "Botswanai Köztársaság", "common":"Botswana"}
+  , "ita":{
+  "official": "Repubblica del Botswana", "common":"Botswana"}
+  , "jpn":{
+  "official": "ボツワナ共和国", "common":"ボツワナ"}
+  , "kor":{
+  "official": "보츠와나 공화국", "common":"보츠와나"}
+  , "nld":{
+  "official": "Republiek Botswana", "common":"Botswana"}
+  , "per":{
+  "official": "جمهوری بوتسوانا", "common":"بوتسوانا"}
+  , "pol":{
+  "official": "Republika Botswany", "common":"Botswana"}
+  , "por":{
+  "official": "República do Botswana", "common":"Botswana"}
+  , "rus":{
+  "official": "Республика Ботсвана", "common":"Ботсвана"}
+  , "slk":{
+  "official": "Botswanská republika", "common":"Botswana"}
+  , "spa":{
+  "official": "República de Botswana", "common":"Botswana"}
+  , "swe":{
+  "official": "Republiken Botswana", "common":"Botswana"}
+  , "urd":{
+  "official": "جمہوریہ بوٹسوانا", "common":"بوٹسوانا"}
+  , "zho":{
+  "official": "博茨瓦纳共和国", "common":"博茨瓦纳"}
+  }
+, "latlng": [-22.0, 24.0], "landlocked": true, "borders": ["NAM", "ZAF", "ZMB", "ZWE"], "area": 582000.0, "demonyms":{
+  "eng":{
+  "f": "Motswana", "m":"Motswana"}
+  , "fra":{
+  "f": "Botswanaise", "m":"Botswanais"}
+  }
+, "flag": "\uD83C\uDDE7\uD83C\uDDFC", "maps":{
+"googleMaps": "https://goo.gl/maps/E364KeLy6N4JwxwQ8", "openStreetMaps":"https://www.openstreetmap.org/relation/1889339"}
+, "population": 2351625, "gini":{
+"2015":53.3}
+, "fifa": "BOT", "car":{
+"signs": ["BW"], "side":"left"}
+, "timezones": ["UTC+02:00"], "continents": ["Africa"], "flags":{
+"png": "https://flagcdn.com/w320/bw.png", "svg":"https://flagcdn.com/bw.svg"}
+, "coatOfArms":{
+"png": "https://mainfacts.com/media/images/coats_of_arms/bw.png", "svg":"https://mainfacts.com/media/images/coats_of_arms/bw.svg"}
+, "startOfWeek": "monday", "capitalInfo":{
+"latlng":[-24.63, 25.9]}
+  }
+
+  ,
+  {
+"name":{
+  "common": "Bouvet Island", "official": "Bouvet Island", "nativeName":{
+    "nor":{
+    "official": "Bouvetøya", "common":"Bouvetøya"}
+  }
+  }
+, "tld": [".bv"], "cca2": "BV", "ccn3": "074", "cca3": "BVT", "independent": false, "status": "officially-assigned", "unMember": false, "idd":{
+"root": "+4", "suffixes":["7"]}
+, "altSpellings": ["BV", "Bouvetøya", "Bouvet-øya"], "region": "Antarctic", "languages":{
+"nor":"Norwegian"}
+, "translations":{
+  "ara":{
+  "official": "جزر بوفيه", "common":"جزر بوفيه"}
+  , "ces":{
+  "official": "Bouvetův ostrov", "common":"Bouvetův ostrov"}
+  , "cym":{
+  "official": "Bouvet Island", "common":"Bouvet Island"}
+  , "deu":{
+  "official": "Bouvetinsel", "common":"Bouvetinsel"}
+  , "est":{
+  "official": "Bouvet’ saar", "common":"Bouvet’ saar"}
+  , "fin":{
+  "official": "Bouvet'nsaari", "common":"Bouvet'nsaari"}
+  , "fra":{
+  "official": "Île Bouvet", "common":"Île Bouvet"}
+  , "hrv":{
+  "official": "Bouvet Island", "common":"Otok Bouvet"}
+  , "hun":{
+  "official": "Bouvet-sziget", "common":"Bouvet-sziget"}
+  , "ita":{
+  "official": "Isola Bouvet", "common":"Isola Bouvet"}
+  , "jpn":{
+  "official": "ブーヴェ島", "common":"ブーベ島"}
+  , "kor":{
+  "official": "부베 섬", "common":"부베 섬"}
+  , "nld":{
+  "official": "Bouvet Island", "common":"Bouveteiland"}
+  , "per":{
+  "official": "جزیرهٔ بووه", "common":"جزیرهٔ بووه"}
+  , "pol":{
+  "official": "Wyspa Bouveta", "common":"Wyspa Bouveta"}
+  , "por":{
+  "official": "Ilha Bouvet", "common":"Ilha Bouvet"}
+  , "rus":{
+  "official": "Остров Буве", "common":"Остров Буве"}
+  , "slk":{
+  "official": "Bouvetov ostrov", "common":"Bouvetov ostrov"}
+  , "spa":{
+  "official": "Isla Bouvet", "common":"Isla Bouvet"}
+  , "swe":{
+  "official": "Bouvetön", "common":"Bouvetön"}
+  , "urd":{
+  "official": "جزیرہ بووہ", "common":"جزیرہ بووہ"}
+  , "zho":{
+  "official": "布维岛", "common":"布维岛"}
+  }
+, "latlng": [-54.43333333, 3.4], "landlocked": false, "area": 49.0, "flag": "\uD83C\uDDE7\uD83C\uDDFB", "maps":{
+"googleMaps": "https://goo.gl/maps/7WRQAEKZb4uK36yi9", "openStreetMaps":"https://www.openstreetmap.org/way/174996681"}
+, "population": 0, "car":{
+"signs": [""], "side":"right"}
+, "timezones": ["UTC+01:00"], "continents": ["Antarctica"], "flags":{
+"png": "https://flagcdn.com/w320/bv.png", "svg":"https://flagcdn.com/bv.svg"}
+, "coatOfArms":{
+  }
+, "startOfWeek": "monday", "capitalInfo":{
+  }
+  }
+
+  ,
+  {
+"name":{
+  "common": "China", "official": "People's Republic of China", "nativeName":{
+    "zho":{
+    "official": "中华人民共和国", "common":"中国"}
+  }
+  }
+, "tld": [".cn", ".中国", ".中國", ".公司", ".网络"], "cca2": "CN", "ccn3": "156", "cca3": "CHN", "cioc": "CHN", "independent": true, "status": "officially-assigned", "unMember": true, "currencies":{
+  "CNY":{
+  "name": "Chinese yuan", "symbol":"¥"}
+  }
+, "idd":{
+"root": "+8", "suffixes":["6"]}
+, "capital": ["Beijing"], "altSpellings": ["CN", "Zhōngguó", "Zhongguo", "Zhonghua", "People's Republic of China", "中华人民共和国", "Zhōnghuá Rénmín Gònghéguó"], "region": "Asia", "subregion": "Eastern Asia", "languages":{
+"zho":"Chinese"}
+, "translations":{
+  "ara":{
+  "official": "جمهورية الصين الشعبية", "common":"الصين"}
+  , "ces":{
+  "official": "Čínská lidová republika", "common":"Čína"}
+  , "cym":{
+  "official": "Gweriniaeth Pobl Tsieina", "common":"Tsieina"}
+  , "deu":{
+  "official": "Volksrepublik China", "common":"China"}
+  , "est":{
+  "official": "Hiina Rahvavabariik", "common":"Hiina"}
+  , "fin":{
+  "official": "Kiinan kansantasavalta", "common":"Kiina"}
+  , "fra":{
+  "official": "République populaire de Chine", "common":"Chine"}
+  , "hrv":{
+  "official": "Narodna Republika Kina", "common":"Kina"}
+  , "hun":{
+  "official": "Kínai Népköztársaság", "common":"Kína"}
+  , "ita":{
+  "official": "Repubblica popolare cinese", "common":"Cina"}
+  , "jpn":{
+  "official": "中華人民共和国", "common":"中国"}
+  , "kor":{
+  "official": "중화인민공화국", "common":"중국"}
+  , "nld":{
+  "official": "Volksrepubliek China", "common":"China"}
+  , "per":{
+  "official": "جمهوری خلق چین", "common":"چین"}
+  , "pol":{
+  "official": "Chińska Republika Ludowa", "common":"Chiny"}
+  , "por":{
+  "official": "República Popular da China", "common":"China"}
+  , "rus":{
+  "official": "Народная Республика Китай", "common":"Китай"}
+  , "slk":{
+  "official": "Čínska ľudová republika", "common":"Čína"}
+  , "spa":{
+  "official": "República Popular de China", "common":"China"}
+  , "swe":{
+  "official": "Folkrepubliken Kina", "common":"Kina"}
+  , "urd":{
+  "official": "عوامی جمہوریہ چین", "common":"چین"}
+  }
+, "latlng": [35.0, 105.0], "landlocked": false, "borders": ["AFG", "BTN", "MMR", "HKG", "IND", "KAZ", "NPL", "PRK", "KGZ", "LAO", "MAC", "MNG", "PAK", "RUS", "TJK", "VNM"], "area": 9706961.0, "demonyms":{
+  "eng":{
+  "f": "Chinese", "m":"Chinese"}
+  , "fra":{
+  "f": "Chinoise", "m":"Chinois"}
+  }
+, "flag": "\uD83C\uDDE8\uD83C\uDDF3", "maps":{
+"googleMaps": "https://goo.gl/maps/p9qC6vgiFRRXzvGi7", "openStreetMaps":"https://www.openstreetmap.org/relation/270056"}
+, "population": 1402112000, "gini":{
+"2016":38.5}
+, "fifa": "CHN", "car":{
+"signs": ["RC"], "side":"right"}
+, "timezones": ["UTC+08:00"], "continents": ["Asia"], "flags":{
+"png": "https://flagcdn.com/w320/cn.png", "svg":"https://flagcdn.com/cn.svg"}
+, "coatOfArms":{
+"png": "https://mainfacts.com/media/images/coats_of_arms/cn.png", "svg":"https://mainfacts.com/media/images/coats_of_arms/cn.svg"}
+, "startOfWeek": "monday", "capitalInfo":{
+"latlng":[39.92, 116.38]}
+, "postalCode":{
+"format": "######", "regex":"^(\\d{6})$"}
+  }
+
+  ,
+  {
+"name":{
+  "common": "Grenada", "official": "Grenada", "nativeName":{
+    "eng":{
+    "official": "Grenada", "common":"Grenada"}
+  }
+  }
+, "tld": [".gd"], "cca2": "GD", "ccn3": "308", "cca3": "GRD", "cioc": "GRN", "independent": true, "status": "officially-assigned", "unMember": true, "currencies":{
+  "XCD":{
+  "name": "Eastern Caribbean dollar", "symbol":"$"}
+  }
+, "idd":{
+"root": "+1", "suffixes":["473"]}
+, "capital": ["St. George's"], "altSpellings": ["GD"], "region": "Americas", "subregion": "Caribbean", "languages":{
+"eng":"English"}
+, "translations":{
+  "ara":{
+  "official": "غرينادا", "common":"غرينادا"}
+  , "ces":{
+  "official": "Grenada", "common":"Grenada"}
+  , "cym":{
+  "official": "Grenada", "common":"Grenada"}
+  , "deu":{
+  "official": "Grenada", "common":"Grenada"}
+  , "est":{
+  "official": "Grenada", "common":"Grenada"}
+  , "fin":{
+  "official": "Grenada", "common":"Grenada"}
+  , "fra":{
+  "official": "Grenade", "common":"Grenade"}
+  , "hrv":{
+  "official": "Grenada", "common":"Grenada"}
+  , "hun":{
+  "official": "Grenada", "common":"Grenada"}
+  , "ita":{
+  "official": "Grenada", "common":"Grenada"}
+  , "jpn":{
+  "official": "グレナダ", "common":"グレナダ"}
+  , "kor":{
+  "official": "그레나다", "common":"그레나다"}
+  , "nld":{
+  "official": "Grenada", "common":"Grenada"}
+  , "per":{
+  "official": "گرنادا", "common":"گرنادا"}
+  , "pol":{
+  "official": "Grenada", "common":"Grenada"}
+  , "por":{
+  "official": "Grenada", "common":"Granada"}
+  , "rus":{
+  "official": "Гренада", "common":"Гренада"}
+  , "slk":{
+  "official": "Grenada", "common":"Grenada"}
+  , "spa":{
+  "official": "Granada", "common":"Grenada"}
+  , "swe":{
+  "official": "Grenada", "common":"Grenada"}
+  , "urd":{
+  "official": "گریناڈا", "common":"گریناڈا"}
+  , "zho":{
+  "official": "格林纳达", "common":"格林纳达"}
+  }
+, "latlng": [12.11666666, -61.66666666], "landlocked": false, "area": 344.0, "demonyms":{
+  "eng":{
+  "f": "Grenadian", "m":"Grenadian"}
+  , "fra":{
+  "f": "Grenadienne", "m":"Grenadien"}
+  }
+, "flag": "\uD83C\uDDEC\uD83C\uDDE9", "maps":{
+"googleMaps": "https://goo.gl/maps/rqWyfUAt4xhvk1Zy9", "openStreetMaps":"https://www.openstreetmap.org/relation/550727"}
+, "population": 112519, "fifa": "GRN", "car":{
+"signs": ["WG"], "side":"left"}
+, "timezones": ["UTC-04:00"], "continents": ["North America"], "flags":{
+"png": "https://flagcdn.com/w320/gd.png", "svg":"https://flagcdn.com/gd.svg"}
+, "coatOfArms":{
+"png": "https://mainfacts.com/media/images/coats_of_arms/gd.png", "svg":"https://mainfacts.com/media/images/coats_of_arms/gd.svg"}
+, "startOfWeek": "monday", "capitalInfo":{
+"latlng":[32.38, -64.68]}
+  }
+
+  ,
+  {
+"name":{
+  "common": "Senegal", "official": "Republic of Senegal", "nativeName":{
+    "fra":{
+    "official": "République du Sénégal", "common":"Sénégal"}
+  }
+  }
+, "tld": [".sn"], "cca2": "SN", "ccn3": "686", "cca3": "SEN", "cioc": "SEN", "independent": true, "status": "officially-assigned", "unMember": true, "currencies":{
+  "XOF":{
+  "name": "West African CFA franc", "symbol":"Fr"}
+  }
+, "idd":{
+"root": "+2", "suffixes":["21"]}
+, "capital": ["Dakar"], "altSpellings": ["SN", "Republic of Senegal", "République du Sénégal"], "region": "Africa", "subregion": "Western Africa", "languages":{
+"fra":"French"}
+, "translations":{
+  "ara":{
+  "official": "جمهورية السنغال", "common":"السنغال"}
+  , "ces":{
+  "official": "Senegalská republika", "common":"Senegal"}
+  , "cym":{
+  "official": "Republic of Senegal", "common":"Senegal"}
+  , "deu":{
+  "official": "Republik Senegal", "common":"Senegal"}
+  , "est":{
+  "official": "Senegali Vabariik", "common":"Senegal"}
+  , "fin":{
+  "official": "Senegalin tasavalta", "common":"Senegal"}
+  , "fra":{
+  "official": "République du Sénégal", "common":"Sénégal"}
+  , "hrv":{
+  "official": "Republika Senegal", "common":"Senegal"}
+  , "hun":{
+  "official": "Szenegáli Köztársaság", "common":"Szenegál"}
+  , "ita":{
+  "official": "Repubblica del Senegal", "common":"Senegal"}
+  , "jpn":{
+  "official": "セネガル共和国", "common":"セネガル"}
+  , "kor":{
+  "official": "세네갈 공화국", "common":"세네갈"}
+  , "nld":{
+  "official": "Republiek Senegal", "common":"Senegal"}
+  , "per":{
+  "official": "جمهوری سنگال", "common":"سنگال"}
+  , "pol":{
+  "official": "Senegal", "common":"Senegal"}
+  , "por":{
+  "official": "República do Senegal", "common":"Senegal"}
+  , "rus":{
+  "official": "Республика Сенегал", "common":"Сенегал"}
+  , "slk":{
+  "official": "Senegalská republika", "common":"Senegal"}
+  , "spa":{
+  "official": "República de Senegal", "common":"Senegal"}
+  , "swe":{
+  "official": "Republiken Senegal", "common":"Senegal"}
+  , "urd":{
+  "official": "جمہوریہ سینیگال", "common":"سینیگال"}
+  , "zho":{
+  "official": "塞内加尔共和国", "common":"塞内加尔"}
+  }
+, "latlng": [14.0, -14.0], "landlocked": false, "borders": ["GMB", "GIN", "GNB", "MLI", "MRT"], "area": 196722.0, "demonyms":{
+  "eng":{
+  "f": "Senegalese", "m":"Senegalese"}
+  , "fra":{
+  "f": "Sénégalaise", "m":"Sénégalais"}
+  }
+, "flag": "\uD83C\uDDF8\uD83C\uDDF3", "maps":{
+"googleMaps": "https://goo.gl/maps/o5f1uD5nyihCL3HCA", "openStreetMaps":"https://www.openstreetmap.org/relation/192775"}
+, "population": 16743930, "gini":{
+"2011":40.3}
+, "fifa": "SEN", "car":{
+"signs": ["SN"], "side":"right"}
+, "timezones": ["UTC"], "continents": ["Africa"], "flags":{
+"png": "https://flagcdn.com/w320/sn.png", "svg":"https://flagcdn.com/sn.svg"}
+, "coatOfArms":{
+"png": "https://mainfacts.com/media/images/coats_of_arms/sn.png", "svg":"https://mainfacts.com/media/images/coats_of_arms/sn.svg"}
+, "startOfWeek": "monday", "capitalInfo":{
+"latlng":[14.73, -17.63]}
+, "postalCode":{
+"format": "#####", "regex":"^(\\d{5})$"}
+  }
+
+  ,
+  {
+"name":{
+  "common": "Guam", "official": "Guam", "nativeName":{
+    "cha":{
+    "official": "Guåhån", "common":"Guåhån"}
+    , "eng":{
+    "official": "Guam", "common":"Guam"}
+    , "spa":{
+    "official": "Guam", "common":"Guam"}
+  }
+  }
+, "tld": [".gu"], "cca2": "GU", "ccn3": "316", "cca3": "GUM", "cioc": "GUM", "independent": false, "status": "officially-assigned", "unMember": false, "currencies":{
+  "USD":{
+  "name": "United States dollar", "symbol":"$"}
+  }
+, "idd":{
+"root": "+1", "suffixes":["671"]}
+, "capital": ["Hagåtña"], "altSpellings": ["GU", "Guåhån"], "region": "Oceania", "subregion": "Micronesia", "languages":{
+"cha": "Chamorro", "eng": "English", "spa":"Spanish"}
+, "translations":{
+  "ara":{
+  "official": "غوام", "common":"غوام"}
+  , "ces":{
+  "official": "Guam", "common":"Guam"}
+  , "cym":{
+  "official": "Guam", "common":"Guam"}
+  , "deu":{
+  "official": "Guam", "common":"Guam"}
+  , "est":{
+  "official": "Guami ala", "common":"Guam"}
+  , "fin":{
+  "official": "Guam", "common":"Guam"}
+  , "fra":{
+  "official": "Guam", "common":"Guam"}
+  , "hrv":{
+  "official": "Guam", "common":"Guam"}
+  , "hun":{
+  "official": "Guam", "common":"Guam"}
+  , "ita":{
+  "official": "Guam", "common":"Guam"}
+  , "jpn":{
+  "official": "グアム", "common":"グアム"}
+  , "kor":{
+  "official": "괌", "common":"괌"}
+  , "nld":{
+  "official": "Guam", "common":"Guam"}
+  , "per":{
+  "official": "گوآم", "common":"گوآم"}
+  , "pol":{
+  "official": "Terytorium Guamu", "common":"Guam"}
+  , "por":{
+  "official": "Guam", "common":"Guam"}
+  , "rus":{
+  "official": "Гуам", "common":"Гуам"}
+  , "slk":{
+  "official": "Guam", "common":"Guam"}
+  , "spa":{
+  "official": "Guam", "common":"Guam"}
+  , "swe":{
+  "official": "Guam", "common":"Guam"}
+  , "urd":{
+  "official": "گوام", "common":"گوام"}
+  , "zho":{
+  "official": "关岛", "common":"关岛"}
+  }
+, "latlng": [13.46666666, 144.78333333], "landlocked": false, "area": 549.0, "demonyms":{
+  "eng":{
+  "f": "Guamanian", "m":"Guamanian"}
+  }
+, "flag": "\uD83C\uDDEC\uD83C\uDDFA", "maps":{
+"googleMaps": "https://goo.gl/maps/Xfnq2i279b18cH3C9", "openStreetMaps":"https://www.openstreetmap.org/relation/306001"}
+, "population": 168783, "fifa": "GUM", "car":{
+"signs": ["USA"], "side":"right"}
+, "timezones": ["UTC+10:00"], "continents": ["Oceania"], "flags":{
+"png": "https://flagcdn.com/w320/gu.png", "svg":"https://flagcdn.com/gu.svg"}
+, "coatOfArms":{
+"png": "https://mainfacts.com/media/images/coats_of_arms/gu.png", "svg":"https://mainfacts.com/media/images/coats_of_arms/gu.svg"}
+, "startOfWeek": "monday", "capitalInfo":{
+"latlng":[13.48, 144.75]}
+, "postalCode":{
+"format": "969##", "regex":"^(969\\d{2})$"}
+  }
+
+  ,
+  {
+"name":{
+  "common": "Republic of the Congo", "official": "Republic of the Congo", "nativeName":{
+    "fra":{
+    "official": "République du Congo", "common":"République du Congo"}
+    , "kon":{
+    "official": "Repubilika ya Kongo", "common":"Repubilika ya Kongo"}
+    , "lin":{
+    "official": "Republíki ya Kongó", "common":"Republíki ya Kongó"}
+  }
+  }
+, "tld": [".cg"], "cca2": "CG", "ccn3": "178", "cca3": "COG", "cioc": "CGO", "independent": true, "status": "officially-assigned", "unMember": true, "currencies":{
+  "XAF":{
+  "name": "Central African CFA franc", "symbol":"Fr"}
+  }
+, "idd":{
+"root": "+2", "suffixes":["42"]}
+, "capital": ["Brazzaville"], "altSpellings": ["CG", "Congo", "Congo-Brazzaville"], "region": "Africa", "subregion": "Middle Africa", "languages":{
+"fra": "French", "kon": "Kikongo", "lin":"Lingala"}
+, "translations":{
+  "ara":{
+  "official": "جمهورية الكونغو", "common":"جمهورية الكونفو"}
+  , "ces":{
+  "official": "Konžská republika", "common":"Kongo"}
+  , "cym":{
+  "official": "Gweriniaeth y Congo", "common":"Gweriniaeth y Congo"}
+  , "deu":{
+  "official": "Republik Kongo", "common":"Kongo"}
+  , "est":{
+  "official": "Kongo Vabariik", "common":"Kongo Vabariik"}
+  , "fin":{
+  "official": "Kongon tasavalta", "common":"Kongo-Brazzaville"}
+  , "fra":{
+  "official": "République du Congo", "common":"Congo"}
+  , "hrv":{
+  "official": "Republika Kongo", "common":"Kongo"}
+  , "hun":{
+  "official": "Kongói Köztársaság", "common":"Kongói Köztársaság"}
+  , "ita":{
+  "official": "Repubblica del Congo", "common":"Congo"}
+  , "jpn":{
+  "official": "コンゴ共和国", "common":"コンゴ共和国"}
+  , "kor":{
+  "official": "콩고", "common":"콩고"}
+  , "nld":{
+  "official": "Republiek Congo", "common":"Congo"}
+  , "per":{
+  "official": "جمهوری برازاویل کُنگو", "common":"جمهوری کُنگو"}
+  , "pol":{
+  "official": "Republika Konga", "common":"Kongo"}
+  , "por":{
+  "official": "República do Congo", "common":"Congo"}
+  , "rus":{
+  "official": "Республика Конго", "common":"Республика Конго"}
+  , "slk":{
+  "official": "Konžská republika", "common":"Kongo"}
+  , "spa":{
+  "official": "República del Congo", "common":"Congo"}
+  , "swe":{
+  "official": "Republiken Kongo", "common":"Kongo-Brazzaville"}
+  , "urd":{
+  "official": "جمہوریہ کانگو", "common":"جمہوریہ کانگو"}
+  , "zho":{
+  "official": "刚果共和国", "common":"刚果"}
+  }
+, "latlng": [-1.0, 15.0], "landlocked": false, "borders": ["AGO", "CMR", "CAF", "COD", "GAB"], "area": 342000.0, "demonyms":{
+  "eng":{
+  "f": "Congolese", "m":"Congolese"}
+  , "fra":{
+  "f": "Congolaise", "m":"Congolais"}
+  }
+, "flag": "\uD83C\uDDE8\uD83C\uDDEC", "maps":{
+"googleMaps": "https://goo.gl/maps/Phf5dDDKdfCtuBTb6", "openStreetMaps":"https://www.openstreetmap.org/relation/192794"}
+, "population": 5657000, "gini":{
+"2011":48.9}
+, "fifa": "CGO", "car":{
+"signs": ["RCB"], "side":"right"}
+, "timezones": ["UTC+01:00"], "continents": ["Africa"], "flags":{
+"png": "https://flagcdn.com/w320/cg.png", "svg":"https://flagcdn.com/cg.svg"}
+, "coatOfArms":{
+  }
+, "startOfWeek": "monday", "capitalInfo":{
+"latlng":[-4.25, 15.28]}
+  }
+
+  ,
+  {
+"name":{
+  "common": "Thailand", "official": "Kingdom of Thailand", "nativeName":{
+    "tha":{
+    "official": "ราชอาณาจักรไทย", "common":"ประเทศไทย"}
+  }
+  }
+, "tld": [".th", ".ไทย"], "cca2": "TH", "ccn3": "764", "cca3": "THA", "cioc": "THA", "independent": true, "status": "officially-assigned", "unMember": true, "currencies":{
+  "THB":{
+  "name": "Thai baht", "symbol":"฿"}
+  }
+, "idd":{
+"root": "+6", "suffixes":["6"]}
+, "capital": ["Bangkok"], "altSpellings": ["TH", "Prathet", "Thai", "Kingdom of Thailand", "ราชอาณาจักรไทย", "Ratcha Anachak Thai"], "region": "Asia", "subregion": "South-Eastern Asia", "languages":{
+"tha":"Thai"}
+, "translations":{
+  "ara":{
+  "official": "مملكة تايلند", "common":"تايلند"}
+  , "ces":{
+  "official": "Thajské království", "common":"Thajsko"}
+  , "cym":{
+  "official": "Kingdom of Thailand", "common":"Thailand"}
+  , "deu":{
+  "official": "Königreich Thailand", "common":"Thailand"}
+  , "est":{
+  "official": "Tai Kuningriik", "common":"Tai"}
+  , "fin":{
+  "official": "Thaimaan kuningaskunta", "common":"Thaimaa"}
+  , "fra":{
+  "official": "Royaume de Thaïlande", "common":"Thaïlande"}
+  , "hrv":{
+  "official": "Kraljevina Tajland", "common":"Tajland"}
+  , "hun":{
+  "official": "Thaiföldi Királyság", "common":"Thaiföld"}
+  , "ita":{
+  "official": "Regno di Thailandia", "common":"Tailandia"}
+  , "jpn":{
+  "official": "タイ王国", "common":"タイ"}
+  , "kor":{
+  "official": "타이 왕국", "common":"태국"}
+  , "nld":{
+  "official": "Koninkrijk Thailand", "common":"Thailand"}
+  , "per":{
+  "official": "پادشاهی تایلند", "common":"تایلند"}
+  , "pol":{
+  "official": "Królestwo Tajlandii", "common":"Tajlandia"}
+  , "por":{
+  "official": "Reino da Tailândia", "common":"Tailândia"}
+  , "rus":{
+  "official": "Королевство Таиланд", "common":"Таиланд"}
+  , "slk":{
+  "official": "Thajské kráľovstvo", "common":"Thajsko"}
+  , "spa":{
+  "official": "Reino de Tailandia", "common":"Tailandia"}
+  , "swe":{
+  "official": "Konungariket Thailand", "common":"Thailand"}
+  , "urd":{
+  "official": "مملکتِ تھائی لینڈ", "common":"تھائی لینڈ"}
+  , "zho":{
+  "official": "泰王国", "common":"泰国"}
+  }
+, "latlng": [15.0, 100.0], "landlocked": false, "borders": ["MMR", "KHM", "LAO", "MYS"], "area": 513120.0, "demonyms":{
+  "eng":{
+  "f": "Thai", "m":"Thai"}
+  , "fra":{
+  "f": "Thaïlandaise", "m":"Thaïlandais"}
+  }
+, "flag": "\uD83C\uDDF9\uD83C\uDDED", "maps":{
+"googleMaps": "https://goo.gl/maps/qeU6uqsfW4nCCwzw9", "openStreetMaps":"https://www.openstreetmap.org/relation/2067731"}
+, "population": 69799978, "gini":{
+"2019":34.9}
+, "fifa": "THA", "car":{
+"signs": ["T"], "side":"left"}
+, "timezones": ["UTC+07:00"], "continents": ["Asia"], "flags":{
+"png": "https://flagcdn.com/w320/th.png", "svg":"https://flagcdn.com/th.svg"}
+, "coatOfArms":{
+"png": "https://mainfacts.com/media/images/coats_of_arms/th.png", "svg":"https://mainfacts.com/media/images/coats_of_arms/th.svg"}
+, "startOfWeek": "monday", "capitalInfo":{
+"latlng":[13.75, 100.52]}
+, "postalCode":{
+"format": "#####", "regex":"^(\\d{5})$"}
+  }
+
+  ,
+  {
+"name":{
+  "common": "Jordan", "official": "Hashemite Kingdom of Jordan", "nativeName":{
+    "ara":{
+    "official": "المملكة الأردنية الهاشمية", "common":"الأردن"}
+  }
+  }
+, "tld": [".jo", "الاردن."], "cca2": "JO", "ccn3": "400", "cca3": "JOR", "cioc": "JOR", "independent": true, "status": "officially-assigned", "unMember": true, "currencies":{
+  "JOD":{
+  "name": "Jordanian dinar", "symbol":"د.ا"}
+  }
+, "idd":{
+"root": "+9", "suffixes":["62"]}
+, "capital": ["Amman"], "altSpellings": ["JO", "Hashemite Kingdom of Jordan", "al-Mamlakah al-Urdunīyah al-Hāshimīyah"], "region": "Asia", "subregion": "Western Asia", "languages":{
+"ara":"Arabic"}
+, "translations":{
+  "ara":{
+  "official": "المملكة الأردنية الهاشمية", "common":"الأردن"}
+  , "ces":{
+  "official": "Jordánské hášimovské království", "common":"Jordánsko"}
+  , "cym":{
+  "official": "Hashemite Kingdom of Jordan", "common":"Jordan"}
+  , "deu":{
+  "official": "Haschemitisches Königreich Jordanien", "common":"Jordanien"}
+  , "est":{
+  "official": "Jordaania Hašimiidi Kuningriik", "common":"Jordaania"}
+  , "fin":{
+  "official": "Jordanian hašemiittinen kunigaskunta", "common":"Jordania"}
+  , "fra":{
+  "official": "Royaume hachémite de Jordanie", "common":"Jordanie"}
+  , "hrv":{
+  "official": "Hašemitske Kraljevine Jordan", "common":"Jordan"}
+  , "hun":{
+  "official": "Jordánia", "common":"Jordánia"}
+  , "ita":{
+  "official": "Regno hascemita di Giordania", "common":"Giordania"}
+  , "jpn":{
+  "official": "ヨルダン·ハシミテ王国", "common":"ヨルダン"}
+  , "kor":{
+  "official": "요르단 하심 왕국", "common":"요르단"}
+  , "nld":{
+  "official": "Hasjemitisch Koninkrijk Jordanië", "common":"Jordanië"}
+  , "per":{
+  "official": "پادشاهی اُردُن هاشمی", "common":"اردن"}
+  , "pol":{
+  "official": "Jordańskie Królestwo Haszymidzkie", "common":"Jordania"}
+  , "por":{
+  "official": "Reino Hachemita da Jordânia", "common":"Jordânia"}
+  , "rus":{
+  "official": "Иорданского Хашимитского Королевства", "common":"Иордания"}
+  , "slk":{
+  "official": "Jordánske hášimovské kráľovstvo", "common":"Jordánsko"}
+  , "spa":{
+  "official": "Reino Hachemita de Jordania", "common":"Jordania"}
+  , "swe":{
+  "official": "Hashimitiska kungadömet Jordanien", "common":"Jordanien"}
+  , "urd":{
+  "official": "ھاشمی مملکتِ اردن", "common":"اردن"}
+  , "zho":{
+  "official": "约旦哈希姆王国", "common":"约旦"}
+  }
+, "latlng": [31.0, 36.0], "landlocked": false, "borders": ["IRQ", "ISR", "PSE", "SAU", "SYR"], "area": 89342.0, "demonyms":{
+  "eng":{
+  "f": "Jordanian", "m":"Jordanian"}
+  , "fra":{
+  "f": "Jordanienne", "m":"Jordanien"}
+  }
+, "flag": "\uD83C\uDDEF\uD83C\uDDF4", "maps":{
+"googleMaps": "https://goo.gl/maps/ko1dzSDKg8Gsi9A98", "openStreetMaps":"https://www.openstreetmap.org/relation/184818"}
+, "population": 10203140, "gini":{
+"2010":33.7}
+, "fifa": "JOR", "car":{
+"signs": ["HKJ"], "side":"right"}
+, "timezones": ["UTC+03:00"], "continents": ["Asia"], "flags":{
+"png": "https://flagcdn.com/w320/jo.png", "svg":"https://flagcdn.com/jo.svg"}
+, "coatOfArms":{
+"png": "https://mainfacts.com/media/images/coats_of_arms/jo.png", "svg":"https://mainfacts.com/media/images/coats_of_arms/jo.svg"}
+, "startOfWeek": "sunday", "capitalInfo":{
+"latlng":[31.95, 35.93]}
+, "postalCode":{
+"format": "#####", "regex":"^(\\d{5})$"}
+  }
+
+  ,
+  {
+"name":{
+  "common": "Colombia", "official": "Republic of Colombia", "nativeName":{
+    "spa":{
+    "official": "República de Colombia", "common":"Colombia"}
+  }
+  }
+, "tld": [".co"], "cca2": "CO", "ccn3": "170", "cca3": "COL", "cioc": "COL", "independent": true, "status": "officially-assigned", "unMember": true, "currencies":{
+  "COP":{
+  "name": "Colombian peso", "symbol":"$"}
+  }
+, "idd":{
+"root": "+5", "suffixes":["7"]}
+, "capital": ["Bogotá"], "altSpellings": ["CO", "Republic of Colombia", "República de Colombia"], "region": "Americas", "subregion": "South America", "languages":{
+"spa":"Spanish"}
+, "translations":{
+  "ara":{
+  "official": "جمهورية كولومبيا", "common":"كولومبيا"}
+  , "ces":{
+  "official": "Kolumbijská republika", "common":"Kolumbie"}
+  , "cym":{
+  "official": "Gweriniaeth Colombia", "common":"Colombia"}
+  , "deu":{
+  "official": "Republik Kolumbien", "common":"Kolumbien"}
+  , "est":{
+  "official": "Colombia Vabariik", "common":"Colombia"}
+  , "fin":{
+  "official": "Kolumbian tasavalta", "common":"Kolumbia"}
+  , "fra":{
+  "official": "République de Colombie", "common":"Colombie"}
+  , "hrv":{
+  "official": "Republika Kolumbija", "common":"Kolumbija"}
+  , "hun":{
+  "official": "Kolumbiai Köztársaság", "common":"Kolumbia"}
+  , "ita":{
+  "official": "Repubblica di Colombia", "common":"Colombia"}
+  , "jpn":{
+  "official": "コロンビア共和国", "common":"コロンビア"}
+  , "kor":{
+  "official": "콜롬비아 공화국", "common":"콜롬비아"}
+  , "nld":{
+  "official": "Republiek Colombia", "common":"Colombia"}
+  , "per":{
+  "official": "جمهوری کلمبیا", "common":"کلمبیا"}
+  , "pol":{
+  "official": "Republika Kolumbii", "common":"Kolumbia"}
+  , "por":{
+  "official": "República da Colômbia", "common":"Colômbia"}
+  , "rus":{
+  "official": "Республика Колумбия", "common":"Колумбия"}
+  , "slk":{
+  "official": "Kolumbijská republika", "common":"Kolumbia"}
+  , "spa":{
+  "official": "República de Colombia", "common":"Colombia"}
+  , "swe":{
+  "official": "Republiken Colombia", "common":"Colombia"}
+  , "urd":{
+  "official": "جمہوریہ کولمبیا", "common":"کولمبیا"}
+  , "zho":{
+  "official": "哥伦比亚共和国", "common":"哥伦比亚"}
+  }
+, "latlng": [4.0, -72.0], "landlocked": false, "borders": ["BRA", "ECU", "PAN", "PER", "VEN"], "area": 1141748.0, "demonyms":{
+  "eng":{
+  "f": "Colombian", "m":"Colombian"}
+  , "fra":{
+  "f": "Colombienne", "m":"Colombien"}
+  }
+, "flag": "\uD83C\uDDE8\uD83C\uDDF4", "maps":{
+"googleMaps": "https://goo.gl/maps/RdwTG8e7gPwS62oR6", "openStreetMaps":"https://www.openstreetmap.org/relation/120027"}
+, "population": 50882884, "gini":{
+"2019":51.3}
+, "fifa": "COL", "car":{
+"signs": ["CO"], "side":"right"}
+, "timezones": ["UTC-05:00"], "continents": ["South America"], "flags":{
+"png": "https://flagcdn.com/w320/co.png", "svg":"https://flagcdn.com/co.svg"}
+, "coatOfArms":{
+"png": "https://mainfacts.com/media/images/coats_of_arms/co.png", "svg":"https://mainfacts.com/media/images/coats_of_arms/co.svg"}
+, "startOfWeek": "monday", "capitalInfo":{
+"latlng":[4.71, -74.07]}
+  }
+
+  ,
+  {
+"name":{
+  "common": "Pitcairn Islands", "official": "Pitcairn Group of Islands", "nativeName":{
+    "eng":{
+    "official": "Pitcairn Group of Islands", "common":"Pitcairn Islands"}
+  }
+  }
+, "tld": [".pn"], "cca2": "PN", "ccn3": "612", "cca3": "PCN", "independent": false, "status": "officially-assigned", "unMember": false, "currencies":{
+  "NZD":{
+  "name": "New Zealand dollar", "symbol":"$"}
+  }
+, "idd":{
+"root": "+6", "suffixes":["4"]}
+, "capital": ["Adamstown"], "altSpellings": ["PN", "Pitcairn", "Pitcairn Henderson Ducie and Oeno Islands"], "region": "Oceania", "subregion": "Polynesia", "languages":{
+"eng":"English"}
+, "translations":{
+  "ara":{
+  "official": "جزر بيتكيرن", "common":"جزر بيتكيرن"}
+  , "ces":{
+  "official": "Pitcairnovy ostrovy", "common":"Pitcairnovy ostrovy"}
+  , "cym":{
+  "official": "Pitcairn Group of Islands", "common":"Pitcairn Islands"}
+  , "deu":{
+  "official": "Pitcairninseln", "common":"Pitcairninseln"}
+  , "est":{
+  "official": "Pitcairni, Hendersoni, Ducie ja Oeno saar", "common":"Pitcairn"}
+  , "fin":{
+  "official": "Pitcairn", "common":"Pitcairn"}
+  , "fra":{
+  "official": "Groupe d'îles Pitcairn", "common":"Îles Pitcairn"}
+  , "hrv":{
+  "official": "Pitcairn skupine otoka", "common":"Pitcairnovo otočje"}
+  , "hun":{
+  "official": "Pitcairn-szigetek", "common":"Pitcairn-szigetek"}
+  , "ita":{
+  "official": "Pitcairn gruppo di isole", "common":"Isole Pitcairn"}
+  , "jpn":{
+  "official": "島のピトケアングループ", "common":"ピトケアン"}
+  , "kor":{
+  "official": "핏케언 제도", "common":"핏케언 제도"}
+  , "nld":{
+  "official": "Pitcairn groep eilanden", "common":"Pitcairneilanden"}
+  , "per":{
+  "official": "جزایر پیت‌کرن", "common":"جزایر پیت‌کرن"}
+  , "pol":{
+  "official": "Wyspy Pitcairn, Henderson, Ducie i Oeno", "common":"Pitcairn"}
+  , "por":{
+  "official": "Pitcairn grupo de ilhas", "common":"Ilhas Pitcairn"}
+  , "rus":{
+  "official": "Питкэрн группа островов", "common":"Острова Питкэрн"}
+  , "slk":{
+  "official": "Pitcairnove ostrovy", "common":"Pitcairnove ostrovy"}
+  , "spa":{
+  "official": "Grupo de Islas Pitcairn", "common":"Islas Pitcairn"}
+  , "swe":{
+  "official": "Pitcairnöarna", "common":"Pitcairnöarna"}
+  , "urd":{
+  "official": "پٹکیرن جزائر", "common":"جزائر پٹکیرن"}
+  , "zho":{
+  "official": "皮特凯恩群岛", "common":"皮特凯恩群岛"}
+  }
+, "latlng": [-25.06666666, -130.1], "landlocked": false, "area": 47.0, "demonyms":{
+  "eng":{
+  "f": "Pitcairn Islander", "m":"Pitcairn Islander"}
+  , "fra":{
+  "f": "Pitcairnaise", "m":"Pitcairnais"}
+  }
+, "flag": "\uD83C\uDDF5\uD83C\uDDF3", "maps":{
+"googleMaps": "https://goo.gl/maps/XGJMnMAigXjXcxSa7", "openStreetMaps":"https://www.openstreetmap.org/relation/2185375"}
+, "population": 56, "car":{
+"signs": ["GB"], "side":"left"}
+, "timezones": ["UTC-08:00"], "continents": ["Oceania"], "flags":{
+"png": "https://flagcdn.com/w320/pn.png", "svg":"https://flagcdn.com/pn.svg"}
+, "coatOfArms":{
+  }
+, "startOfWeek": "monday", "capitalInfo":{
+"latlng":[-25.07, -130.08]}
+  }
+
+  ,
+  {
+"name":{
+  "common": "Norway", "official": "Kingdom of Norway", "nativeName":{
+    "nno":{
+    "official": "Kongeriket Noreg", "common":"Noreg"}
+    , "nob":{
+    "official": "Kongeriket Norge", "common":"Norge"}
+    , "smi":{
+    "official": "Norgga gonagasriika", "common":"Norgga"}
+  }
+  }
+, "tld": [".no"], "cca2": "NO", "ccn3": "578", "cca3": "NOR", "cioc": "NOR", "independent": true, "status": "officially-assigned", "unMember": true, "currencies":{
+  "NOK":{
+  "name": "Norwegian krone", "symbol":"kr"}
+  }
+, "idd":{
+"root": "+4", "suffixes":["7"]}
+, "capital": ["Oslo"], "altSpellings": ["NO", "Norge", "Noreg", "Kingdom of Norway", "Kongeriket Norge", "Kongeriket Noreg"], "region": "Europe", "subregion": "Northern Europe", "languages":{
+"nno": "Norwegian Nynorsk", "nob": "Norwegian Bokmål", "smi":"Sami"}
+, "translations":{
+  "ara":{
+  "official": "مملكة النرويج", "common":"النرويج"}
+  , "ces":{
+  "official": "Norské království", "common":"Norsko"}
+  , "cym":{
+  "official": "Kingdom of Norway", "common":"Norway"}
+  , "deu":{
+  "official": "Königreich Norwegen", "common":"Norwegen"}
+  , "est":{
+  "official": "Norra Kuningriik", "common":"Norra"}
+  , "fin":{
+  "official": "Norjan kuningaskunta", "common":"Norja"}
+  , "fra":{
+  "official": "Royaume de Norvège", "common":"Norvège"}
+  , "hrv":{
+  "official": "Kraljevina Norveška", "common":"Norveška"}
+  , "hun":{
+  "official": "Norvég Királyság", "common":"Norvégia"}
+  , "ita":{
+  "official": "Regno di Norvegia", "common":"Norvegia"}
+  , "jpn":{
+  "official": "ノルウェー王国", "common":"ノルウェー"}
+  , "kor":{
+  "official": "노르웨이 왕국", "common":"노르웨이"}
+  , "nld":{
+  "official": "Koninkrijk Noorwegen", "common":"Noorwegen"}
+  , "per":{
+  "official": "پادشاهی نروژ", "common":"نروژ"}
+  , "pol":{
+  "official": "Królestwo Norwegii", "common":"Norwegia"}
+  , "por":{
+  "official": "Reino da Noruega", "common":"Noruega"}
+  , "rus":{
+  "official": "Королевство Норвегия", "common":"Норвегия"}
+  , "slk":{
+  "official": "Nórske kráľovstvo", "common":"Nórsko"}
+  , "spa":{
+  "official": "Reino de Noruega", "common":"Noruega"}
+  , "swe":{
+  "official": "Konungariket Norge", "common":"Norge"}
+  , "urd":{
+  "official": "مملکتِ ناروے", "common":"ناروے"}
+  , "zho":{
+  "official": "挪威王国", "common":"挪威"}
+  }
+, "latlng": [62.0, 10.0], "landlocked": false, "borders": ["FIN", "SWE", "RUS"], "area": 323802.0, "demonyms":{
+  "eng":{
+  "f": "Norwegian", "m":"Norwegian"}
+  , "fra":{
+  "f": "Norvégienne", "m":"Norvégien"}
+  }
+, "flag": "\uD83C\uDDF3\uD83C\uDDF4", "maps":{
+"googleMaps": "https://goo.gl/maps/htWRrphA7vNgQNdSA", "openStreetMaps":"https://www.openstreetmap.org/relation/2978650"}
+, "population": 5379475, "gini":{
+"2018":27.6}
+, "fifa": "NOR", "car":{
+"signs": ["N"], "side":"right"}
+, "timezones": ["UTC+01:00"], "continents": ["Europe"], "flags":{
+"png": "https://flagcdn.com/w320/no.png", "svg":"https://flagcdn.com/no.svg"}
+, "coatOfArms":{
+"png": "https://mainfacts.com/media/images/coats_of_arms/no.png", "svg":"https://mainfacts.com/media/images/coats_of_arms/no.svg"}
+, "startOfWeek": "monday", "capitalInfo":{
+"latlng":[59.92, 10.75]}
+, "postalCode":{
+"format": "####", "regex":"^(\\d{4})$"}
+  }
+
+  ,
+  {
+"name":{
+  "common": "Comoros", "official": "Union of the Comoros", "nativeName":{
+    "ara":{
+    "official": "الاتحاد القمري", "common":"القمر‎"}
+    , "fra":{
+    "official": "Union des Comores", "common":"Comores"}
+    , "zdj":{
+    "official": "Udzima wa Komori", "common":"Komori"}
+  }
+  }
+, "tld": [".km"], "cca2": "KM", "ccn3": "174", "cca3": "COM", "cioc": "COM", "independent": true, "status": "officially-assigned", "unMember": true, "currencies":{
+  "KMF":{
+  "name": "Comorian franc", "symbol":"Fr"}
+  }
+, "idd":{
+"root": "+2", "suffixes":["69"]}
+, "capital": ["Moroni"], "altSpellings": ["KM", "Union of the Comoros", "Union des Comores", "Udzima wa Komori", "al-Ittiḥād al-Qumurī"], "region": "Africa", "subregion": "Eastern Africa", "languages":{
+"ara": "Arabic", "fra": "French", "zdj":"Comorian"}
+, "translations":{
+  "ara":{
+  "official": "الإتحاد القمري", "common":"جزر القمر"}
+  , "ces":{
+  "official": "Komorský svaz", "common":"Komory"}
+  , "cym":{
+  "official": "Undeb y Comoros", "common":"Y Comoros"}
+  , "deu":{
+  "official": "Union der Komoren", "common":"Komoren"}
+  , "est":{
+  "official": "Komoori Liit", "common":"Komoorid"}
+  , "fin":{
+  "official": "Komorien liitto", "common":"Komorit"}
+  , "fra":{
+  "official": "Union des Comores", "common":"Comores"}
+  , "hrv":{
+  "official": "Savez Komori", "common":"Komori"}
+  , "hun":{
+  "official": "Comore-szigeteki Unió", "common":"Comore-szigetek"}
+  , "ita":{
+  "official": "Unione delle Comore", "common":"Comore"}
+  , "jpn":{
+  "official": "コモロ連合", "common":"コモロ"}
+  , "kor":{
+  "official": "코모로 연방", "common":"코모로"}
+  , "nld":{
+  "official": "Unie van de Comoren", "common":"Comoren"}
+  , "per":{
+  "official": "مجمع‌الجزایر قمر", "common":"اتحاد قُمُر"}
+  , "pol":{
+  "official": "Związek Komorów", "common":"Komory"}
+  , "por":{
+  "official": "União das Comores", "common":"Comores"}
+  , "rus":{
+  "official": "Союз Коморских Островов", "common":"Коморы"}
+  , "slk":{
+  "official": "Komorská únia", "common":"Komory"}
+  , "spa":{
+  "official": "Unión de las Comoras", "common":"Comoras"}
+  , "swe":{
+  "official": "Unionen Komorerna", "common":"Komorerna"}
+  , "urd":{
+  "official": "اتحاد القمری", "common":"القمری"}
+  , "zho":{
+  "official": "科摩罗联盟", "common":"科摩罗"}
+  }
+, "latlng": [-12.16666666, 44.25], "landlocked": false, "area": 1862.0, "demonyms":{
+  "eng":{
+  "f": "Comoran", "m":"Comoran"}
+  , "fra":{
+  "f": "Comorienne", "m":"Comorien"}
+  }
+, "flag": "\uD83C\uDDF0\uD83C\uDDF2", "maps":{
+"googleMaps": "https://goo.gl/maps/eas4GP28C1GyStnu6", "openStreetMaps":"https://www.openstreetmap.org/relation/535790"}
+, "population": 869595, "gini":{
+"2014":45.3}
+, "fifa": "COM", "car":{
+"signs": ["COM"], "side":"right"}
+, "timezones": ["UTC+03:00"], "continents": ["Africa"], "flags":{
+"png": "https://flagcdn.com/w320/km.png", "svg":"https://flagcdn.com/km.svg"}
+, "coatOfArms":{
+"png": "https://mainfacts.com/media/images/coats_of_arms/km.png", "svg":"https://mainfacts.com/media/images/coats_of_arms/km.svg"}
+, "startOfWeek": "monday", "capitalInfo":{
+"latlng":[-11.7, 43.23]}
+  }
+
+  ,
+  {
+"name":{
+  "common": "French Southern and Antarctic Lands", "official": "Territory of the French Southern and Antarctic Lands", "nativeName":{
+    "fra":{
+    "official": "Territoire des Terres australes et antarctiques françaises", "common":"Terres australes et antarctiques françaises"}
+  }
+  }
+, "tld": [".tf"], "cca2": "TF", "ccn3": "260", "cca3": "ATF", "independent": false, "status": "officially-assigned", "unMember": false, "currencies":{
+  "EUR":{
+  "name": "Euro", "symbol":"€"}
+  }
+, "idd":{
+"root": "+2", "suffixes":["62"]}
+, "capital": ["Port-aux-Français"], "altSpellings": ["TF", "French Southern Territories"], "region": "Antarctic", "languages":{
+"fra":"French"}
+, "translations":{
+  "ara":{
+  "official": "مقاطعات وأقاليم ما وراء البحار الفرنسية", "common":"أراض فرنسية جنوبية وأنتارتيكية"}
+  , "ces":{
+  "official": "Teritorium Francouzská jižní a antarktická území", "common":"Francouzská jižní a antarktická území"}
+  , "cym":{
+  "official": "Territory of the French Southern and Antarctic Lands", "common":"French Southern and Antarctic Lands"}
+  , "deu":{
+  "official": "Gebiet der Französisch Süd- und Antarktisgebiete", "common":"Französische Süd- und Antarktisgebiete"}
+  , "est":{
+  "official": "Prantsuse Lõunaalad", "common":"Prantsuse Lõunaalad"}
+  , "fin":{
+  "official": "Ranskan eteläiset ja antarktiset alueet", "common":"Ranskan eteläiset ja antarktiset alueet"}
+  , "fra":{
+  "official": "Territoire des Terres australes et antarctiques françaises", "common":"Terres australes et antarctiques françaises"}
+  , "hrv":{
+  "official": "Teritoriju Francuski južni i antarktički teritoriji", "common":"Francuski južni i antarktički teritoriji"}
+  , "hun":{
+  "official": "Francia déli és antarktiszi területek", "common":"Francia déli és antarktiszi területek"}
+  , "ita":{
+  "official": "Territorio della australi e antartiche francesi Terre", "common":"Territori Francesi del Sud"}
+  , "jpn":{
+  "official": "フランス領南方·南極地域の領土", "common":"フランス領南方・南極地域"}
+  , "kor":{
+  "official": "프랑스령 남부와 남극 지역", "common":"프랑스령 남부와 남극 지역"}
+  , "nld":{
+  "official": "Grondgebied van de Franse Zuidelijke en Antarctische gebieden", "common":"Franse Gebieden in de zuidelijke Indische Oceaan"}
+  , "per":{
+  "official": "سرزمین‌های جنوبی و جنوبگانی فرانسه", "common":"سرزمین‌های جنوبی و جنوبگانی فرانسه"}
+  , "pol":{
+  "official": "Francuskie Terytoria Południowe i Antarktyczne", "common":"Francuskie Terytoria Południowe i Antarktyczne"}
+  , "por":{
+  "official": "Território do Sul e Antártica Francesa", "common":"Terras Austrais e Antárticas Francesas"}
+  , "rus":{
+  "official": "Территория Французские Южные и Антарктические земли", "common":"Французские Южные и Антарктические территории"}
+  , "slk":{
+  "official": "Francúzske južné a antarktické územia", "common":"Francúzske juŽné a antarktické územia"}
+  , "spa":{
+  "official": "Territorio del Francés Tierras australes y antárticas", "common":"Tierras Australes y Antárticas Francesas"}
+  , "swe":{
+  "official": "Franska syd- och Antarktisterritorierna", "common":"Franska södra territorierna"}
+  , "urd":{
+  "official": "سرزمینِ جنوبی فرانسیسیہ و انٹارکٹیکہ", "common":"سرزمین جنوبی فرانسیسیہ و انٹارکٹیکا"}
+  , "zho":{
+  "official": "法国南部和南极土地", "common":"法国南部和南极土地"}
+  }
+, "latlng": [-49.25, 69.167], "landlocked": false, "area": 7747.0, "demonyms":{
+  "eng":{
+  "f": "French", "m":"French"}
+  , "fra":{
+  "f": "Française", "m":"Français"}
+  }
+, "flag": "\uD83C\uDDF9\uD83C\uDDEB", "maps":{
+"googleMaps": "https://goo.gl/maps/6ua6CX1m4w1xF2Em7", "openStreetMaps":"https://www.openstreetmap.org/relation/2186658"}
+, "population": 400, "car":{
+"signs": [""], "side":"right"}
+, "timezones": ["UTC+05:00"], "continents": ["Antarctica"], "flags":{
+"png": "https://flagcdn.com/w320/tf.png", "svg":"https://flagcdn.com/tf.svg"}
+, "coatOfArms":{
+"png": "https://mainfacts.com/media/images/coats_of_arms/tf.png", "svg":"https://mainfacts.com/media/images/coats_of_arms/tf.svg"}
+, "startOfWeek": "monday", "capitalInfo":{
+"latlng":[48.81, -1.4]}
+  }
+
+  ,
+  {
+"name":{
+  "common": "Cape Verde", "official": "Republic of Cabo Verde", "nativeName":{
+    "por":{
+    "official": "República de Cabo Verde", "common":"Cabo Verde"}
+  }
+  }
+, "tld": [".cv"], "cca2": "CV", "ccn3": "132", "cca3": "CPV", "cioc": "CPV", "independent": true, "status": "officially-assigned", "unMember": true, "currencies":{
+  "CVE":{
+  "name": "Cape Verdean escudo", "symbol":"Esc"}
+  }
+, "idd":{
+"root": "+2", "suffixes":["38"]}
+, "capital": ["Praia"], "altSpellings": ["CV", "Republic of Cabo Verde", "República de Cabo Verde"], "region": "Africa", "subregion": "Western Africa", "languages":{
+"por":"Portuguese"}
+, "translations":{
+  "ara":{
+  "official": "جمهورية كابو فيردي", "common":"كابو فيردي"}
+  , "ces":{
+  "official": "Kapverdská republika", "common":"Kapverdy"}
+  , "cym":{
+  "official": "Gweriniaeth Cabo Verde", "common":"Penrhyn Verde"}
+  , "deu":{
+  "official": "Republik Cabo Verde", "common":"Kap Verde"}
+  , "est":{
+  "official": "Cabo Verde Vabariik", "common":"Roheneemesaared"}
+  , "fin":{
+  "official": "Kap Verden tasavalta", "common":"Kap Verde"}
+  , "fra":{
+  "official": "République du Cap-Vert", "common":"Îles du Cap-Vert"}
+  , "hrv":{
+  "official": "Republika Cabo Verde", "common":"Zelenortska Republika"}
+  , "hun":{
+  "official": "Zöld-foki Köztársaság", "common":"Zöld-foki Köztársaság"}
+  , "ita":{
+  "official": "Repubblica di Capo Verde", "common":"Capo Verde"}
+  , "jpn":{
+  "official": "カーボベルデ共和国", "common":"カーボベルデ"}
+  , "kor":{
+  "official": "카보베르데 공화국", "common":"카보베르데"}
+  , "nld":{
+  "official": "Republiek van Cabo Verde", "common":"Kaapverdië"}
+  , "per":{
+  "official": "جمهوری کبو ورد", "common":"دماغهٔ سبز"}
+  , "pol":{
+  "official": "Republika Zielonego Przylądka", "common":"Republika Zielonego Przylądka"}
+  , "por":{
+  "official": "República de Cabo Verde", "common":"Cabo Verde"}
+  , "rus":{
+  "official": "Республика Кабо -Верде", "common":"Кабо-Верде"}
+  , "slk":{
+  "official": "Kapverdská republika", "common":"Kapverdy"}
+  , "spa":{
+  "official": "República de Cabo Verde", "common":"Cabo Verde"}
+  , "swe":{
+  "official": "Republiken Kap Verde", "common":"Kap Verde"}
+  , "urd":{
+  "official": "جمہوریہ کیپ ورڈی", "common":"کیپ ورڈی"}
+  , "zho":{
+  "official": "佛得角共和国", "common":"佛得角"}
+  }
+, "latlng": [16.0, -24.0], "landlocked": false, "area": 4033.0, "demonyms":{
+  "eng":{
+  "f": "Cape Verdian", "m":"Cape Verdian"}
+  , "fra":{
+  "f": "Cap-verdienne", "m":"Cap-verdien"}
+  }
+, "flag": "\uD83C\uDDE8\uD83C\uDDFB", "maps":{
+"googleMaps": "https://goo.gl/maps/Kc9vy5ChjuiAgMfXA", "openStreetMaps":"https://www.openstreetmap.org/relation/535774"}
+, "population": 555988, "gini":{
+"2015":42.4}
+, "fifa": "CPV", "car":{
+"signs": ["CV"], "side":"right"}
+, "timezones": ["UTC-01:00"], "continents": ["Africa"], "flags":{
+"png": "https://flagcdn.com/w320/cv.png", "svg":"https://flagcdn.com/cv.svg"}
+, "coatOfArms":{
+"png": "https://mainfacts.com/media/images/coats_of_arms/cv.png", "svg":"https://mainfacts.com/media/images/coats_of_arms/cv.svg"}
+, "startOfWeek": "monday", "capitalInfo":{
+"latlng":[14.92, -23.52]}
+, "postalCode":{
+"format": "####", "regex":"^(\\d{4})$"}
+  }
+
+  ,
+  {
+"name":{
+  "common": "Cyprus", "official": "Republic of Cyprus", "nativeName":{
+    "ell":{
+    "official": "Δημοκρατία της Κύπρος", "common":"Κύπρος"}
+    , "tur":{
+    "official": "Kıbrıs Cumhuriyeti", "common":"Kıbrıs"}
+  }
+  }
+, "tld": [".cy"], "cca2": "CY", "ccn3": "196", "cca3": "CYP", "cioc": "CYP", "independent": true, "status": "officially-assigned", "unMember": true, "currencies":{
+  "EUR":{
+  "name": "Euro", "symbol":"€"}
+  }
+, "idd":{
+"root": "+3", "suffixes":["57"]}
+, "capital": ["Nicosia"], "altSpellings": ["CY", "Kýpros", "Kıbrıs", "Republic of Cyprus", "Κυπριακή Δημοκρατία", "Kıbrıs Cumhuriyeti"], "region": "Europe", "subregion": "Southern Europe", "languages":{
+"ell": "Greek", "tur":"Turkish"}
+, "translations":{
+  "ara":{
+  "official": "جمهورية قبرص", "common":"قبرص"}
+  , "ces":{
+  "official": "Kyperská republika", "common":"Kypr"}
+  , "cym":{
+  "official": "Gweriniaeth Cyprus", "common":"Cyprus"}
+  , "deu":{
+  "official": "Republik Zypern", "common":"Zypern"}
+  , "est":{
+  "official": "Küprose Vabariik", "common":"Küpros"}
+  , "fin":{
+  "official": "Kyproksen tasavalta", "common":"Kypros"}
+  , "fra":{
+  "official": "République de Chypre", "common":"Chypre"}
+  , "hrv":{
+  "official": "Republika Cipar", "common":"Cipar"}
+  , "hun":{
+  "official": "Ciprusi Köztársaság", "common":"Ciprus"}
+  , "ita":{
+  "official": "Repubblica di Cipro", "common":"Cipro"}
+  , "jpn":{
+  "official": "キプロス共和国", "common":"キプロス"}
+  , "kor":{
+  "official": "키프로스 공화국", "common":"키프로스"}
+  , "nld":{
+  "official": "Republiek Cyprus", "common":"Cyprus"}
+  , "per":{
+  "official": "جمهوری قبرس", "common":"قِبرِس"}
+  , "pol":{
+  "official": "Republika Cypryjska", "common":"Cypr"}
+  , "por":{
+  "official": "República de Chipre", "common":"Chipre"}
+  , "rus":{
+  "official": "Республика Кипр", "common":"Кипр"}
+  , "slk":{
+  "official": "Cyperská republika", "common":"Cyprus"}
+  , "spa":{
+  "official": "República de Chipre", "common":"Chipre"}
+  , "swe":{
+  "official": "Republiken Cypern", "common":"Cypern"}
+  , "urd":{
+  "official": "جمہوریہ قبرص", "common":"قبرص"}
+  , "zho":{
+  "official": "塞浦路斯共和国", "common":"塞浦路斯"}
+  }
+, "latlng": [35.0, 33.0], "landlocked": false, "area": 9251.0, "demonyms":{
+  "eng":{
+  "f": "Cypriot", "m":"Cypriot"}
+  , "fra":{
+  "f": "Chypriote", "m":"Chypriote"}
+  }
+, "flag": "\uD83C\uDDE8\uD83C\uDDFE", "maps":{
+"googleMaps": "https://goo.gl/maps/77hPBRdLid8yD5Bm7", "openStreetMaps":"https://www.openstreetmap.org/relation/307787"}
+, "population": 1207361, "gini":{
+"2018":32.7}
+, "fifa": "CYP", "car":{
+"signs": ["CY"], "side":"left"}
+, "timezones": ["UTC+02:00"], "continents": ["Europe"], "flags":{
+"png": "https://flagcdn.com/w320/cy.png", "svg":"https://flagcdn.com/cy.svg"}
+, "coatOfArms":{
+"png": "https://mainfacts.com/media/images/coats_of_arms/cy.png", "svg":"https://mainfacts.com/media/images/coats_of_arms/cy.svg"}
+, "startOfWeek": "monday", "capitalInfo":{
+"latlng":[35.17, 33.37]}
+, "postalCode":{
+"format": "####", "regex":"^(\\d{4})$"}
+  }
+
+  ,
+  {
+"name":{
+  "common": "Kiribati", "official": "Independent and Sovereign Republic of Kiribati", "nativeName":{
+    "eng":{
+    "official": "Independent and Sovereign Republic of Kiribati", "common":"Kiribati"}
+    , "gil":{
+    "official": "Ribaberiki Kiribati", "common":"Kiribati"}
+  }
+  }
+, "tld": [".ki"], "cca2": "KI", "ccn3": "296", "cca3": "KIR", "cioc": "KIR", "independent": true, "status": "officially-assigned", "unMember": true, "currencies":{
+  "AUD":{
+  "name": "Australian dollar", "symbol":"$"}
+  , "KID":{
+  "name": "Kiribati dollar", "symbol":"$"}
+  }
+, "idd":{
+"root": "+6", "suffixes":["86"]}
+, "capital": ["South Tarawa"], "altSpellings": ["KI", "Republic of Kiribati", "Ribaberiki Kiribati"], "region": "Oceania", "subregion": "Micronesia", "languages":{
+"eng": "English", "gil":"Gilbertese"}
+, "translations":{
+  "ara":{
+  "official": "جمهورية كيريباتي", "common":"كيريباتي"}
+  , "ces":{
+  "official": "Republika Kiribati", "common":"Kiribati"}
+  , "cym":{
+  "official": "Independent and Sovereign Republic of Kiribati", "common":"Kiribati"}
+  , "deu":{
+  "official": "Republik Kiribati", "common":"Kiribati"}
+  , "est":{
+  "official": "Kiribati Vabariik", "common":"Kiribati"}
+  , "fin":{
+  "official": "Kiribatin tasavalta", "common":"Kiribati"}
+  , "fra":{
+  "official": "République de Kiribati", "common":"Kiribati"}
+  , "hrv":{
+  "official": "Samostalne i suverene Republike Kiribati", "common":"Kiribati"}
+  , "hun":{
+  "official": "Kiribati Köztársaság", "common":"Kiribati"}
+  , "ita":{
+  "official": "Repubblica indipendente e sovrano di Kiribati", "common":"Kiribati"}
+  , "jpn":{
+  "official": "キリバスの独立と主権共和国", "common":"キリバス"}
+  , "kor":{
+  "official": "키리바시 공화국", "common":"키리바시"}
+  , "nld":{
+  "official": "Onafhankelijke en soevereine republiek Kiribati", "common":"Kiribati"}
+  , "per":{
+  "official": "جمهوری کیریباتی", "common":"کیریباتی"}
+  , "pol":{
+  "official": "Republika Kiribati", "common":"Kiribati"}
+  , "por":{
+  "official": "Independente e soberano República de Kiribati", "common":"Kiribati"}
+  , "rus":{
+  "official": "Независимой и суверенной Республики Кирибати", "common":"Кирибати"}
+  , "slk":{
+  "official": "Kiribatská republika", "common":"Kiribati"}
+  , "spa":{
+  "official": "República Independiente y Soberano de Kiribati", "common":"Kiribati"}
+  , "swe":{
+  "official": "Republiken Kiribati", "common":"Kiribati"}
+  , "urd":{
+  "official": "سلطنت آزاد جمہوریہ کیریباتی", "common":"کیریباتی"}
+  , "zho":{
+  "official": "基里巴斯共和国", "common":"基里巴斯"}
+  }
+, "latlng": [1.41666666, 173.0], "landlocked": false, "area": 811.0, "demonyms":{
+  "eng":{
+  "f": "I-Kiribati", "m":"I-Kiribati"}
+  , "fra":{
+  "f": "Kiribatienne", "m":"Kiribatien"}
+  }
+, "flag": "\uD83C\uDDF0\uD83C\uDDEE", "maps":{
+"googleMaps": "https://goo.gl/maps/NBfYvrndW4skAimw9", "openStreetMaps":"https://www.openstreetmap.org/relation/571178"}
+, "population": 119446, "gini":{
+"2006":37.0}
+, "car":{
+"signs": ["KIR"], "side":"left"}
+, "timezones": ["UTC+12:00", "UTC+13:00", "UTC+14:00"], "continents": ["Oceania"], "flags":{
+"png": "https://flagcdn.com/w320/ki.png", "svg":"https://flagcdn.com/ki.svg"}
+, "coatOfArms":{
+"png": "https://mainfacts.com/media/images/coats_of_arms/ki.png", "svg":"https://mainfacts.com/media/images/coats_of_arms/ki.svg"}
+, "startOfWeek": "monday", "capitalInfo":{
+"latlng":[1.33, 172.98]}
+  }
+
+  ,
+  {
+"name":{
+  "common": "Central African Republic", "official": "Central African Republic", "nativeName":{
+    "fra":{
+    "official": "République centrafricaine", "common":"République centrafricaine"}
+    , "sag":{
+    "official": "Ködörösêse tî Bêafrîka", "common":"Bêafrîka"}
+  }
+  }
+, "tld": [".cf"], "cca2": "CF", "ccn3": "140", "cca3": "CAF", "cioc": "CAF", "independent": true, "status": "officially-assigned", "unMember": true, "currencies":{
+  "XAF":{
+  "name": "Central African CFA franc", "symbol":"Fr"}
+  }
+, "idd":{
+"root": "+2", "suffixes":["36"]}
+, "capital": ["Bangui"], "altSpellings": ["CF", "Central African Republic", "République centrafricaine"], "region": "Africa", "subregion": "Middle Africa", "languages":{
+"fra": "French", "sag":"Sango"}
+, "translations":{
+  "ara":{
+  "official": "جمهورية أفريقيا الوسطى", "common":"جمهورية أفريقيا الوسطى"}
+  , "ces":{
+  "official": "Středoafrická republika", "common":"Středoafrická republika"}
+  , "cym":{
+  "official": "Gweriniaeth Canolbarth Affrica", "common":"Gweriniaeth Canolbarth Affrica"}
+  , "deu":{
+  "official": "Zentralafrikanische Republik", "common":"Zentralafrikanische Republik"}
+  , "est":{
+  "official": "Kesk-Aafrika Vabariik", "common":"Kesk-Aafrika Vabariik"}
+  , "fin":{
+  "official": "Keski-Afrikan tasavalta", "common":"Keski-Afrikan tasavalta"}
+  , "fra":{
+  "official": "République centrafricaine", "common":"République centrafricaine"}
+  , "hrv":{
+  "official": "Centralna Afrička Republika", "common":"Srednjoafrička Republika"}
+  , "hun":{
+  "official": "Közép-afrikai Köztársaság", "common":"Közép-afrikai Köztársaság"}
+  , "ita":{
+  "official": "Repubblica Centrafricana", "common":"Repubblica Centrafricana"}
+  , "jpn":{
+  "official": "中央アフリカ共和国", "common":"中央アフリカ共和国"}
+  , "kor":{
+  "official": "중앙아프리카 공화국", "common":"중앙아프리카 공화국"}
+  , "nld":{
+  "official": "Centraal-Afrikaanse Republiek", "common":"Centraal-Afrikaanse Republiek"}
+  , "per":{
+  "official": "جمهوری آفریقای مرکزی", "common":"جمهوری آفریقای مرکزی"}
+  , "pol":{
+  "official": "Republika Środkowoafrykańska", "common":"Republika Środkowoafrykańska"}
+  , "por":{
+  "official": "República Centro-Africano", "common":"República Centro-Africana"}
+  , "rus":{
+  "official": "Центрально-Африканская Республика", "common":"Центральноафриканская Республика"}
+  , "slk":{
+  "official": "Stredoafrická republika", "common":"Stredoafrická republika"}
+  , "spa":{
+  "official": "República Centroafricana", "common":"República Centroafricana"}
+  , "swe":{
+  "official": "Centralafrikanska republiken", "common":"Centralafrikanska republiken"}
+  , "urd":{
+  "official": "وسطی افریقی جمہوریہ", "common":"وسطی افریقی جمہوریہ"}
+  , "zho":{
+  "official": "中非共和国", "common":"中非共和国"}
+  }
+, "latlng": [7.0, 21.0], "landlocked": true, "borders": ["CMR", "TCD", "COD", "COG", "SSD", "SDN"], "area": 622984.0, "demonyms":{
+  "eng":{
+  "f": "Central African", "m":"Central African"}
+  , "fra":{
+  "f": "Centrafricaine", "m":"Centrafricain"}
+  }
+, "flag": "\uD83C\uDDE8\uD83C\uDDEB", "maps":{
+"googleMaps": "https://goo.gl/maps/51V8dsi2rGYC9n3c9", "openStreetMaps":"https://www.openstreetmap.org/relation/192790"}
+, "population": 4829764, "gini":{
+"2008":56.2}
+, "fifa": "CTA", "car":{
+"signs": ["RCA"], "side":"right"}
+, "timezones": ["UTC+01:00"], "continents": ["Africa"], "flags":{
+"png": "https://flagcdn.com/w320/cf.png", "svg":"https://flagcdn.com/cf.svg"}
+, "coatOfArms":{
+"png": "https://mainfacts.com/media/images/coats_of_arms/cf.png", "svg":"https://mainfacts.com/media/images/coats_of_arms/cf.svg"}
+, "startOfWeek": "monday", "capitalInfo":{
+"latlng":[4.37, 18.58]}
+  }
+
+  ,
+  {
+"name":{
+  "common": "Caribbean Netherlands", "official": "Bonaire, Sint Eustatius and Saba", "nativeName":{
+    "nld":{
+    "official": "Bonaire, Sint Eustatius en Saba", "common":"Caribisch Nederland"}
+    , "pap":{
+    "official": "Boneiru, Sint Eustatius y Saba", "common":"Boneiru, Sint Eustatius y Saba"}
+  }
+  }
+, "tld": [".bq", ".nl"], "cca2": "BQ", "ccn3": "535", "cca3": "BES", "independent": false, "status": "officially-assigned", "unMember": false, "currencies":{
+  "USD":{
+  "name": "United States dollar", "symbol":"$"}
+  }
+, "idd":{
+"root": "+5", "suffixes":["99"]}
+, "capital": ["Kralendijk"], "altSpellings": ["BES islands"], "region": "Americas", "subregion": "Caribbean", "languages":{
+"eng": "English", "nld": "Dutch", "pap":"Papiamento"}
+, "translations":{
+  "ara":{
+  "official": "بونير وسينت أوستاتيوس وسابا", "common":"الجزر الكاريبية الهولندية"}
+  , "ces":{
+  "official": "Karibské Nizozemsko", "common":"Karibské Nizozemsko"}
+  , "cym":{
+  "official": "Bonaire, Sint Eustatius and Saba", "common":"Caribbean Netherlands"}
+  , "deu":{
+  "official": "Bonaire, Sint Eustatius und Saba", "common":"Karibische Niederlande"}
+  , "est":{
+  "official": "Bonaire, Sint Eustatius ja Saba", "common":"Bonaire, Sint Eustatius ja Saba"}
+  , "fin":{
+  "official": "Bonaire, Sint Eustatius ja Saba", "common":"Bonaire, Sint Eustatius ja Saba"}
+  , "fra":{
+  "official": "Bonaire, Saint-Eustache et Saba", "common":"Pays-Bas caribéens"}
+  , "hrv":{
+  "official": "Bonaire, Sint Eustatius i Saba", "common":"Bonaire, Sint Eustatius i Saba"}
+  , "hun":{
+  "official": "Bonaire", "common":"Bonaire"}
+  , "ita":{
+  "official": "Bonaire, Sint Eustatius e Saba", "common":"Paesi Bassi caraibici"}
+  , "jpn":{
+  "official": "ボネール、シント・ユースタティウスおよびサバ", "common":"ボネール、シント・ユースタティウスおよびサバ"}
+  , "kor":{
+  "official": "보네르, 신트외스타티위스, 사바", "common":"카리브 네덜란드"}
+  , "nld":{
+  "official": "Bonaire, Sint Eustatius en Saba", "common":"Caribisch Nederland"}
+  , "per":{
+  "official": "جزایر کارائیب هلند", "common":"جزایر کارائیب هلند"}
+  , "pol":{
+  "official": "Bonaire, Sint Eustatius i Saba", "common":"Antyle Holenderskie"}
+  , "por":{
+  "official": "Bonaire, Saba e Santo Eustáquio", "common":"Países Baixos Caribenhos"}
+  , "rus":{
+  "official": "Бонэйр, Синт-Эстатиус и Саба", "common":"Карибские Нидерланды"}
+  , "slk":{
+  "official": "Bonaire, Sint Eustatius a Saba", "common":"Bonaire, Sint Eustatius a Saba"}
+  , "spa":{
+  "official": "Bonaire, San Eustaquio y Saba", "common":"Caribe Neerlandés"}
+  , "swe":{
+  "official": "Bonaire, Sint Eustatius and Saba", "common":"Karibiska Nederländerna"}
+  , "urd":{
+  "official": "بونایر، سینٹ ایوسٹائیس اور سابا", "common":"کیریبین نیدرلینڈز"}
+  , "zho":{
+  "official": "荷蘭加勒比區", "common":"荷蘭加勒比區"}
+  }
+, "latlng": [12.18, -68.25], "landlocked": false, "area": 328.0, "demonyms":{
+  "eng":{
+  "f": "Dutch", "m":"Dutch"}
+  , "fra":{
+  "f": "Néerlandaise", "m":"Néerlandais"}
+  }
+, "flag": "\uD83C\uDDE7\uD83C\uDDF6", "maps":{
+"googleMaps": "https://goo.gl/maps/4XVes1P6uEDTz77WA", "openStreetMaps":"https://www.openstreetmap.org/relation/1216720"}
+, "population": 25987, "car":{
+"signs": [""], "side":"right"}
+, "timezones": ["UTC-04:00"], "continents": ["North America"], "flags":{
+"png": "https://flagcdn.com/w320/bq.png", "svg":"https://flagcdn.com/bq.svg"}
+, "coatOfArms":{
+"png": "https://mainfacts.com/media/images/coats_of_arms/bq.png", "svg":"https://mainfacts.com/media/images/coats_of_arms/bq.svg"}
+, "startOfWeek": "monday", "capitalInfo":{
+"latlng":[12.14, -68.27]}
+  }
+
+  ,
+  {
+"name":{
+  "common": "Puerto Rico", "official": "Commonwealth of Puerto Rico", "nativeName":{
+    "eng":{
+    "official": "Commonwealth of Puerto Rico", "common":"Puerto Rico"}
+    , "spa":{
+    "official": "Estado Libre Asociado de Puerto Rico", "common":"Puerto Rico"}
+  }
+  }
+, "tld": [".pr"], "cca2": "PR", "ccn3": "630", "cca3": "PRI", "cioc": "PUR", "independent": false, "status": "officially-assigned", "unMember": false, "currencies":{
+  "USD":{
+  "name": "United States dollar", "symbol":"$"}
+  }
+, "idd":{
+"root": "+1", "suffixes":["787", "939"]}
+, "capital": ["San Juan"], "altSpellings": ["PR", "Commonwealth of Puerto Rico", "Estado Libre Asociado de Puerto Rico"], "region": "Americas", "subregion": "Caribbean", "languages":{
+"eng": "English", "spa":"Spanish"}
+, "translations":{
+  "ara":{
+  "official": "كومنولث بويرتوريكو", "common":"بويرتوريكو"}
+  , "ces":{
+  "official": "Portoriko", "common":"Portoriko"}
+  , "cym":{
+  "official": "Commonwealth of Puerto Rico", "common":"Puerto Rico"}
+  , "deu":{
+  "official": "Freistaat Puerto Rico", "common":"Puerto Rico"}
+  , "est":{
+  "official": "Puerto Rico Ühendus", "common":"Puerto Rico"}
+  , "fin":{
+  "official": "Puerto Rico", "common":"Puerto Rico"}
+  , "fra":{
+  "official": "Porto Rico", "common":"Porto Rico"}
+  , "hrv":{
+  "official": "Zajednica Puerto Rico", "common":"Portoriko"}
+  , "hun":{
+  "official": "Puerto Rico", "common":"Puerto Rico"}
+  , "ita":{
+  "official": "Commonwealth di Porto Rico", "common":"Porto Rico"}
+  , "jpn":{
+  "official": "プエルトリコのコモンウェルス", "common":"プエルトリコ"}
+  , "kor":{
+  "official": "푸에르토리코", "common":"푸에르토리코"}
+  , "nld":{
+  "official": "Gemenebest van Puerto Rico", "common":"Puerto Rico"}
+  , "per":{
+  "official": "قلمرو همسود پورتوریکو", "common":"پورتوریکو"}
+  , "pol":{
+  "official": "Wolne Stowarzyszone Państwo Portoryko", "common":"Portoryko"}
+  , "por":{
+  "official": "Commonwealth of Puerto Rico", "common":"Porto Rico"}
+  , "rus":{
+  "official": "Содружество Пуэрто-Рико", "common":"Пуэрто-Рико"}
+  , "slk":{
+  "official": "Portorické spoločenstvo", "common":"Portoriko"}
+  , "spa":{
+  "official": "Asociado de Puerto Rico", "common":"Puerto Rico"}
+  , "swe":{
+  "official": "Puerto Rico", "common":"Puerto Rico"}
+  , "urd":{
+  "official": " دولتِ مشترکہ پورٹو ریکو", "common":"پورٹو ریکو"}
+  , "zho":{
+  "official": "波多黎各联邦", "common":"波多黎各"}
+  }
+, "latlng": [18.25, -66.5], "landlocked": false, "area": 8870.0, "demonyms":{
+  "eng":{
+  "f": "Puerto Rican", "m":"Puerto Rican"}
+  , "fra":{
+  "f": "Portoricaine", "m":"Portoricain"}
+  }
+, "flag": "\uD83C\uDDF5\uD83C\uDDF7", "maps":{
+"googleMaps": "https://goo.gl/maps/sygfDbtwn389wu8x5", "openStreetMaps":"https://www.openstreetmap.org/relation/4422604"}
+, "population": 3194034, "fifa": "PUR", "car":{
+"signs": ["USA"], "side":"right"}
+, "timezones": ["UTC-04:00"], "continents": ["North America"], "flags":{
+"png": "https://flagcdn.com/w320/pr.png", "svg":"https://flagcdn.com/pr.svg"}
+, "coatOfArms":{
+  }
+, "startOfWeek": "monday", "capitalInfo":{
+"latlng":[18.47, -66.12]}
+, "postalCode":{
+"format": "#####-####", "regex":"^(\\d{9})$"}
+  }
+
+  ,
+  {
+"name":{
+  "common": "Cocos (Keeling) Islands", "official": "Territory of the Cocos (Keeling) Islands", "nativeName":{
+    "eng":{
+    "official": "Territory of the Cocos (Keeling) Islands", "common":"Cocos (Keeling) Islands"}
+  }
+  }
+, "tld": [".cc"], "cca2": "CC", "ccn3": "166", "cca3": "CCK", "independent": false, "status": "officially-assigned", "unMember": false, "currencies":{
+  "AUD":{
+  "name": "Australian dollar", "symbol":"$"}
+  }
+, "idd":{
+"root": "+6", "suffixes":["1"]}
+, "capital": ["West Island"], "altSpellings": ["CC", "Keeling Islands", "Cocos Islands"], "region": "Oceania", "subregion": "Australia and New Zealand", "languages":{
+"eng":"English"}
+, "translations":{
+  "ara":{
+  "official": "إقليم جزر كوكوس", "common":"جزر كوكوس"}
+  , "ces":{
+  "official": "Kokosové ostrovy", "common":"Kokosové ostrovy"}
+  , "cym":{
+  "official": "Tiriogaeth yr Ynysoedd Cocos (Keeling)", "common":"Ynysoedd Cocos"}
+  , "deu":{
+  "official": "Gebiet der Kokos- (Keeling-) Inseln", "common":"Kokosinseln"}
+  , "est":{
+  "official": "Kookossaarte ala", "common":"Kookossaared"}
+  , "fin":{
+  "official": "Kookossaaret", "common":"Kookossaaret"}
+  , "fra":{
+  "official": "Territoire des îles Cocos (Keeling)", "common":"Îles Cocos"}
+  , "hrv":{
+  "official": "Teritoriju Kokosovi (Keeling) Islands", "common":"Kokosovi Otoci"}
+  , "hun":{
+  "official": "Kókusz-szigetek", "common":"Kókusz-szigetek"}
+  , "ita":{
+  "official": "Territorio della (Keeling) Isole Cocos", "common":"Isole Cocos e Keeling"}
+  , "jpn":{
+  "official": "ココス諸島の領土", "common":"ココス（キーリング）諸島"}
+  , "kor":{
+  "official": "코코스 제도", "common":"코코스 제도"}
+  , "nld":{
+  "official": "Grondgebied van de Eilanden Cocos (Keeling )", "common":"Cocoseilanden"}
+  , "per":{
+  "official": "جزایر کوکوس", "common":"جزایر کوکوس"}
+  , "pol":{
+  "official": "Wyspy Kokosowe", "common":"Wyspy Kokosowe"}
+  , "por":{
+  "official": "Território dos Cocos (Keeling)", "common":"Ilhas Cocos (Keeling)"}
+  , "rus":{
+  "official": "Территория Кокосовые (Килинг) острова", "common":"Кокосовые острова"}
+  , "slk":{
+  "official": "Kokosové ostrovy", "common":"Kokosové ostrovy"}
+  , "spa":{
+  "official": "Territorio de los (Keeling) Islas Cocos", "common":"Islas Cocos o Islas Keeling"}
+  , "swe":{
+  "official": "Kokosöarna", "common":"Kokosöarna"}
+  , "urd":{
+  "official": "جزائر (کیلنگ) کوکوس", "common":"جزائر کوکوس"}
+  , "zho":{
+  "official": "科科斯", "common":"科科斯"}
+  }
+, "latlng": [-12.5, 96.83333333], "landlocked": false, "area": 14.0, "demonyms":{
+  "eng":{
+  "f": "Cocos Islander", "m":"Cocos Islander"}
+  }
+, "flag": "\uD83C\uDDE8\uD83C\uDDE8", "maps":{
+"googleMaps": "https://goo.gl/maps/3eCdKVpVfMcZyKcK6", "openStreetMaps":"https://www.openstreetmap.org/relation/82636"}
+, "population": 544, "car":{
+"signs": ["AUS"], "side":"left"}
+, "timezones": ["UTC+06:30"], "continents": ["Asia"], "flags":{
+"png": "https://flagcdn.com/w320/cc.png", "svg":"https://flagcdn.com/cc.svg"}
+, "coatOfArms":{
+  }
+, "startOfWeek": "monday", "capitalInfo":{
+"latlng":[-12.17, 96.83]}
+  }
+
+  ,
+  {
+"name":{
+  "common": "Palestine", "official": "State of Palestine", "nativeName":{
+    "ara":{
+    "official": "دولة فلسطين", "common":"فلسطين"}
+  }
+  }
+, "tld": [".ps", "فلسطين."], "cca2": "PS", "ccn3": "275", "cca3": "PSE", "cioc": "PLE", "independent": false, "status": "officially-assigned", "unMember": false, "currencies":{
+  "EGP":{
+  "name": "Egyptian pound", "symbol":"E£"}
+  , "ILS":{
+  "name": "Israeli new shekel", "symbol":"₪"}
+  , "JOD":{
+  "name": "Jordanian dinar", "symbol":"JD"}
+  }
+, "idd":{
+"root": "+9", "suffixes":["70"]}
+, "capital": ["Ramallah"], "altSpellings": ["PS", "Palestine, State of", "State of Palestine", "Dawlat Filasṭin"], "region": "Asia", "subregion": "Western Asia", "languages":{
+"ara":"Arabic"}
+, "translations":{
+  "ara":{
+  "official": "دولة فلسطين", "common":"فلسطين"}
+  , "ces":{
+  "official": "Stát Palestina", "common":"Palestina"}
+  , "cym":{
+  "official": "State of Palestine", "common":"Palestine"}
+  , "deu":{
+  "official": "Staat Palästina", "common":"Palästina"}
+  , "est":{
+  "official": "Palestiina Riik", "common":"Palestiina"}
+  , "fin":{
+  "official": "Palestiinan valtio", "common":"Palestiina"}
+  , "fra":{
+  "official": "État de Palestine", "common":"Palestine"}
+  , "hrv":{
+  "official": "State of Palestine", "common":"Palestina"}
+  , "hun":{
+  "official": "Palesztin Autonómia", "common":"Palesztina"}
+  , "ita":{
+  "official": "Stato di Palestina", "common":"Palestina"}
+  , "jpn":{
+  "official": "パレスチナ自治政府", "common":"パレスチナ"}
+  , "kor":{
+  "official": "팔레스타인국", "common":"팔레스타인"}
+  , "nld":{
+  "official": "Staat Palestina", "common":"Palestijnse gebieden"}
+  , "per":{
+  "official": "دولت فلسطین", "common":"فلسطین"}
+  , "pol":{
+  "official": "Państwo Palestyna", "common":"Palestyna"}
+  , "por":{
+  "official": "Estado da Palestina", "common":"Palestina"}
+  , "rus":{
+  "official": "Государство Палестина", "common":"Палестина"}
+  , "slk":{
+  "official": "Palestínsky štát", "common":"Palestína"}
+  , "spa":{
+  "official": "Estado de Palestina", "common":"Palestina"}
+  , "swe":{
+  "official": "Palestina", "common":"Palestina"}
+  , "urd":{
+  "official": "ریاستِ فلسطین", "common":"فلسطین"}
+  , "zho":{
+  "official": "巴勒斯坦国", "common":"巴勒斯坦"}
+  }
+, "latlng": [31.9, 35.2], "landlocked": false, "borders": ["ISR", "EGY", "JOR"], "area": 6220.0, "demonyms":{
+  "eng":{
+  "f": "Palestinian", "m":"Palestinian"}
+  , "fra":{
+  "f": "Palestinienne", "m":"Palestinien"}
+  }
+, "flag": "\uD83C\uDDF5\uD83C\uDDF8", "maps":{
+"googleMaps": "https://goo.gl/maps/QvTbkRdmdWEoYAmt5", "openStreetMaps":"https://www.openstreetmap.org/relation/1703814"}
+, "population": 4803269, "gini":{
+"2016":33.7}
+, "fifa": "PLE", "car":{
+"signs": ["PS"], "side":"right"}
+, "timezones": ["UTC+02:00"], "continents": ["Asia"], "flags":{
+"png": "https://flagcdn.com/w320/ps.png", "svg":"https://flagcdn.com/ps.svg"}
+, "coatOfArms":{
+"png": "https://mainfacts.com/media/images/coats_of_arms/ps.png", "svg":"https://mainfacts.com/media/images/coats_of_arms/ps.svg"}
+, "startOfWeek": "sunday", "capitalInfo":{
+"latlng":[31.9, 35.2]}
+  }
+
+  ,
+  {
+"name":{
+  "common": "Turkmenistan", "official": "Turkmenistan", "nativeName":{
+    "rus":{
+    "official": "Туркменистан", "common":"Туркмения"}
+    , "tuk":{
+    "official": "Türkmenistan", "common":"Türkmenistan"}
+  }
+  }
+, "tld": [".tm"], "cca2": "TM", "ccn3": "795", "cca3": "TKM", "cioc": "TKM", "independent": true, "status": "officially-assigned", "unMember": true, "currencies":{
+  "TMT":{
+  "name": "Turkmenistan manat", "symbol":"m"}
+  }
+, "idd":{
+"root": "+9", "suffixes":["93"]}
+, "capital": ["Ashgabat"], "altSpellings": ["TM"], "region": "Asia", "subregion": "Central Asia", "languages":{
+"rus": "Russian", "tuk":"Turkmen"}
+, "translations":{
+  "ara":{
+  "official": "تركمانستان", "common":"تركمانستان"}
+  , "ces":{
+  "official": "Turkmenistán", "common":"Turkmenistán"}
+  , "cym":{
+  "official": "Turkmenistan", "common":"Turkmenistan"}
+  , "deu":{
+  "official": "Turkmenistan", "common":"Turkmenistan"}
+  , "est":{
+  "official": "Türkmenistan", "common":"Türkmenistan"}
+  , "fin":{
+  "official": "Turkmenistan", "common":"Turkmenistan"}
+  , "fra":{
+  "official": "Turkménistan", "common":"Turkménistan"}
+  , "hrv":{
+  "official": "Turkmenistan", "common":"Turkmenistan"}
+  , "hun":{
+  "official": "Türkmén Köztársaság", "common":"Türkmenisztán"}
+  , "ita":{
+  "official": "Turkmenistan", "common":"Turkmenistan"}
+  , "jpn":{
+  "official": "トルクメニスタン", "common":"トルクメニスタン"}
+  , "kor":{
+  "official": "투르크메니스탄", "common":"투르크메니스탄"}
+  , "nld":{
+  "official": "Turkmenistan", "common":"Turkmenistan"}
+  , "per":{
+  "official": "جمهوری خلق ترکمنستان", "common":"ترکمنستان"}
+  , "pol":{
+  "official": "Republika Turkmenistanu", "common":"Turkmenistan"}
+  , "por":{
+  "official": "Turcomenistão", "common":"Turquemenistão"}
+  , "rus":{
+  "official": "Туркменистан", "common":"Туркмения"}
+  , "slk":{
+  "official": "Turkménsko", "common":"Turkménsko"}
+  , "spa":{
+  "official": "Turkmenistán", "common":"Turkmenistán"}
+  , "swe":{
+  "official": "Turkmenistan", "common":"Turkmenistan"}
+  , "urd":{
+  "official": "ترکمانستان", "common":"ترکمانستان"}
+  , "zho":{
+  "official": "土库曼斯坦", "common":"土库曼斯坦"}
+  }
+, "latlng": [40.0, 60.0], "landlocked": true, "borders": ["AFG", "IRN", "KAZ", "UZB"], "area": 488100.0, "demonyms":{
+  "eng":{
+  "f": "Turkmen", "m":"Turkmen"}
+  , "fra":{
+  "f": "Turkmène", "m":"Turkmène"}
+  }
+, "flag": "\uD83C\uDDF9\uD83C\uDDF2", "maps":{
+"googleMaps": "https://goo.gl/maps/cgfUcaQHSWKuqeKk9", "openStreetMaps":"https://www.openstreetmap.org/relation/223026"}
+, "population": 6031187, "gini":{
+"1998":40.8}
+, "fifa": "TKM", "car":{
+"signs": ["TM"], "side":"right"}
+, "timezones": ["UTC+05:00"], "continents": ["Asia"], "flags":{
+"png": "https://flagcdn.com/w320/tm.png", "svg":"https://flagcdn.com/tm.svg"}
+, "coatOfArms":{
+"png": "https://mainfacts.com/media/images/coats_of_arms/tm.png", "svg":"https://mainfacts.com/media/images/coats_of_arms/tm.svg"}
+, "startOfWeek": "monday", "capitalInfo":{
+"latlng":[37.95, 58.38]}
+, "postalCode":{
+"format": "######", "regex":"^(\\d{6})$"}
+  }
+]
