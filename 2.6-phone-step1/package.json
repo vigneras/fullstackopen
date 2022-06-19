@@ -17,7 +17,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "server": "json-server -p8081 --watch db.json"
+    "server": "json-server -p3001 --watch db.json -H  ec2-35-88-179-67.us-west-2.compute.amazonaws.com"
   },
   "eslintConfig": {
     "extends": [

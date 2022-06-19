@@ -48,19 +48,19 @@ const App = () => {
     }
 
     const common = (
-            <>
+        <>
             <Button handleClick={() => setToValue(setSelected, getRandomAnectode())} text="Next anectode" />
           </>
-          )
-          
-          if (selected === -1) {
-              return (
-                      <div>
+    )
+
+    if (selected === -1) {
+        return (
+            <div>
                       {common}
                   </div>
-              )
-          }
-
+        )
+    }
+    
     const famousIdx = votes.indexOf(Math.max(...votes))
     
     return ( <div>
