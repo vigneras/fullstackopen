@@ -1,22 +1,52 @@
 import { useState, useEffect } from 'react'
-import axios from 'axios'
 
 import Persons from './components/Persons'
 import PersonForm from './components/PersonForm'
 import PersonFilter from './components/PersonFilter'
+import personService from './services/persons'
 
 const App = () => {
   const [persons, setPersons] = useState([])
   const [newFilter, setNewFilter] = useState('')
+  const [newName, setNewName] = useState('')
+  const [newNumber, setNewNumber] = useState('')
+  
+  const handleNameChange = (event) => {
+    console.log(event)
+    setNewName(event.target.value)
+  }
+  
+  const handleNumberChange = (event) => {
+    console.log(event)
+    setNewNumber(event.target.value)
+  }
+
+ const addPerson =  (event) => {
+    event.preventDefault()
+    console.log(event, persons, newName, newNumber)
+    if (persons.find(p => p.name === newName)) {
+      alert(`Provided name ${newName} already exists in our db`)
+      return
+    }
+    const personObject = {
+      name: newName,
+      number: newNumber,
+    }
+    
+    personService.create(personObject)
+    .then(newPerson => {
+              console.log(newPerson)
+              setPersons(persons.concat(newPerson))
+              setNewName('')
+              setNewNumber('')
+    })
+  }
+
 
   useEffect(() => {
     console.log('effect')
-    axios
-      .get('http://ec2-100-21-61-59.us-west-2.compute.amazonaws.com:3001/persons')
-      .then(response => {
-        console.log('promise fulfilled')
-        setPersons(response.data)
-      })
+    personService.getAll()
+      .then(personsFromServer => setPersons(personsFromServer))
   }, [])
   console.log('render', persons.length, 'notes')
   
@@ -26,7 +56,9 @@ const App = () => {
       <h2>Phonebook</h2>
       <PersonFilter newfilter={newFilter} setNewFilter={setNewFilter} />
       <h3>Add a new</h3>
-      <PersonForm persons={persons} setPersons={setPersons} />
+      <PersonForm newName={newName} handleNameChange={handleNameChange}
+                  newNumber={newNumber} handleNumberChange={handleNumberChange}
+                  addPerson={addPerson} />
       <h2>Numbers</h2>
       
       <Persons newFilter={newFilter} persons={persons} />
