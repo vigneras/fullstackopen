@@ -42,6 +42,14 @@ const App = () => {
     })
   }
 
+  const deletePerson = (id) => {
+    console.log(`Delete ${id}`)
+    
+    personService.deleteItem(id)
+        .then(() => {
+          setPersons(persons.filter(p => p.id !== id))
+          })
+  }
 
   useEffect(() => {
     console.log('effect')
@@ -61,7 +69,7 @@ const App = () => {
                   addPerson={addPerson} />
       <h2>Numbers</h2>
       
-      <Persons newFilter={newFilter} persons={persons} />
+      <Persons newFilter={newFilter} persons={persons} deletePerson={deletePerson} />
       
     </div>
   )
