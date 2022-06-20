@@ -24,22 +24,33 @@ const App = () => {
  const addPerson =  (event) => {
     event.preventDefault()
     console.log(event, persons, newName, newNumber)
-    if (persons.find(p => p.name === newName)) {
-      alert(`Provided name ${newName} already exists in our db`)
-      return
+    const found = persons.find(p => p.name === newName)
+    if (found) {
+      if (!window.confirm(`Person ${newName} already exists in our db, confirm the update?`)) return
+      
     }
     const personObject = {
       name: newName,
       number: newNumber,
     }
-    
-    personService.create(personObject)
-    .then(newPerson => {
+    if (found) {
+      personService.update(found.id, personObject)
+          .then(newPerson => {
+            console.log(newPerson)
+            setPersons(persons.filter(p => p.id !== newPerson.id)
+                              .concat(newPerson))
+            setNewName('')
+            setNewNumber('')
+          })
+    } else {
+      personService.create(personObject)
+          .then(newPerson => {
               console.log(newPerson)
               setPersons(persons.concat(newPerson))
               setNewName('')
               setNewNumber('')
-    })
+      })
+    }
   }
 
   const deletePerson = (person) => {
