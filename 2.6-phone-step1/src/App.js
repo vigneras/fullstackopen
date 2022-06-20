@@ -1,5 +1,8 @@
+import './index.css'
+
 import { useState, useEffect } from 'react'
 
+import Notification from './components/Notification'
 import Persons from './components/Persons'
 import PersonForm from './components/PersonForm'
 import PersonFilter from './components/PersonFilter'
@@ -10,6 +13,8 @@ const App = () => {
   const [newFilter, setNewFilter] = useState('')
   const [newName, setNewName] = useState('')
   const [newNumber, setNewNumber] = useState('')
+  const [message, setMessage] = useState({msg:'some error happened...', className:'error'})
+
   
   const handleNameChange = (event) => {
     console.log(event)
@@ -41,6 +46,7 @@ const App = () => {
                               .concat(newPerson))
             setNewName('')
             setNewNumber('')
+            setMessage({msg: `${personObject.name} succesfully updated`, className: `info`})
           })
     } else {
       personService.create(personObject)
@@ -49,6 +55,7 @@ const App = () => {
               setPersons(persons.concat(newPerson))
               setNewName('')
               setNewNumber('')
+              setMessage({msg: `${personObject.name} succesfully added`, className: `info`})
       })
     }
   }
@@ -59,6 +66,7 @@ const App = () => {
     personService.deleteItem(person.id)
         .then(() => {
           setPersons(persons.filter(p => p.id !== person.id))
+          setMessage({msg: `${person.name} succesfully deleted`, className: `info`})
           })
   }
 
@@ -72,6 +80,7 @@ const App = () => {
 
   return (
     <div>
+      <Notification msg={message.msg} className={message.className} />
       <h2>Phonebook</h2>
       <PersonFilter newfilter={newFilter} setNewFilter={setNewFilter} />
       <h3>Add a new</h3>
