@@ -42,12 +42,12 @@ const App = () => {
     })
   }
 
-  const deletePerson = (id) => {
-    console.log(`Delete ${id}`)
-    
-    personService.deleteItem(id)
+  const deletePerson = (person) => {
+    console.log(`Delete ${person}`)
+    if (!window.confirm(`Are you sure you want to delete ${person.name}?`)) return
+    personService.deleteItem(person.id)
         .then(() => {
-          setPersons(persons.filter(p => p.id !== id))
+          setPersons(persons.filter(p => p.id !== person.id))
           })
   }
 

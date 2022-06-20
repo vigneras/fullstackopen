@@ -12,7 +12,7 @@ const Persons = ({ newFilter, persons, deletePerson }) => {
                       person.name.toUpperCase().includes(newFilter.toUpperCase()))
               .map(person => 
                   <li key={person.id}> 
-                      <Person person={person} /> <Button text="Delete" handleClick={() => deletePerson(person.id)} />
+                      <Person person={person} /> <Button text="Delete" handleClick={() => deletePerson(person)} />
                   </li>)
       }
     </ul>
