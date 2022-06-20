@@ -47,7 +47,10 @@ const App = () => {
             setNewName('')
             setNewNumber('')
             setMessage({msg: `${personObject.name} succesfully updated`, className: `info`})
-          })
+          }).catch(ex => {
+            setMessage({msg: `Server-side error when updating ${personObject.name}: ${ex}`, className: 'error'})
+            setTimeout(() => setMessage({msg: null, className: 'info'}), 5000)
+            })
     } else {
       personService.create(personObject)
           .then(newPerson => {
@@ -56,7 +59,10 @@ const App = () => {
               setNewName('')
               setNewNumber('')
               setMessage({msg: `${personObject.name} succesfully added`, className: `info`})
-      })
+      }).catch(ex => {
+            setMessage({msg: `Server-side error when creating ${personObject.name}: ${ex}`, className: 'error'})
+            setTimeout(() => setMessage({msg: null, className: 'info'}), 5000)
+            })
     }
   }
 
@@ -67,13 +73,20 @@ const App = () => {
         .then(() => {
           setPersons(persons.filter(p => p.id !== person.id))
           setMessage({msg: `${person.name} succesfully deleted`, className: `info`})
-          })
+          }).catch(ex => {
+            setMessage({msg: `Server-side error when deleting ${person.name}: ${ex}`, className: 'error'})
+            setTimeout(() => setMessage({msg: null, className: 'info'}), 5000)
+            })
   }
 
   useEffect(() => {
     console.log('effect')
     personService.getAll()
-      .then(personsFromServer => setPersons(personsFromServer))
+      .then(personsFromServer => setPersons(personsFromServer.concat({
+        id: 9999,
+      name: 'Dummy',
+      number: '-',
+    })))
   }, [])
   console.log('render', persons.length, 'notes')
   
