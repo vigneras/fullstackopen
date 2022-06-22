@@ -1,6 +1,8 @@
 const express = require('express')
 const app = express()
 
+app.use(express.json())
+
 let persons = [
     { 
       "id": 1,
@@ -25,6 +27,8 @@ let persons = [
 ]
 
 app.get('/api/persons', (request, response) => {
+  console.log((request.headers))
+  console.log(request.headers['x-forwarded-for'] || request.socket.remoteAddress) 
   response.json(persons)
 })
 
@@ -49,6 +53,19 @@ app.delete('/api/persons/:id', (request, response) => {
   persons = persons.filter(person => person.id !== id)
   
     response.status(204).end()
+})
+
+app.post('/api/persons/', (request, response) => {
+  console.log(request)
+  const id = Math.floor(Math.random() * 9876543)
+  console.log(id)
+  const newPerson = {
+    name: request.body.name,
+    number: request.body.number,
+    id: id,
+  }
+  persons = persons.concat(newPerson)
+  response.json(newPerson)
 })
 
 const PORT = 3001
