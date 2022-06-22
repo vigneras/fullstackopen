@@ -57,15 +57,26 @@ app.delete('/api/persons/:id', (request, response) => {
 
 app.post('/api/persons/', (request, response) => {
   console.log(request)
-  const id = Math.floor(Math.random() * 9876543)
-  console.log(id)
-  const newPerson = {
-    name: request.body.name,
-    number: request.body.number,
-    id: id,
+  
+  const person = request.body
+  
+  if (!person || !person.name || !person.number) {
+      return response.status(400).json({
+        error: `Content is missing` 
+      })
   }
-  persons = persons.concat(newPerson)
-  response.json(newPerson)
+  
+  if (persons.find(p => p.name === person.name)) {
+    return response.status(400).json({
+      error: `${person.name} already exists` 
+      })
+  }
+  
+  const id = Math.floor(Math.random() * 9876543)
+  
+  person.id = id
+  persons = persons.concat(person)
+  response.json(person)
 })
 
 const PORT = 3001
