@@ -13,7 +13,7 @@ const App = () => {
   const [newFilter, setNewFilter] = useState('')
   const [newName, setNewName] = useState('')
   const [newNumber, setNewNumber] = useState('')
-  const [message, setMessage] = useState({msg:'some error happened...', className:'error'})
+  const [message, setMessage] = useState({msg:'Welcome!', className:'info'})
 
   
   const handleNameChange = (event) => {
@@ -87,6 +87,9 @@ const App = () => {
       name: 'Dummy',
       number: '-',
     })))
+    .catch(error => {
+      setMessage({msg: `Error while retrieving data: ${error}`, className: 'info'})
+    })
   }, [])
   console.log('render', persons.length, 'notes')
   

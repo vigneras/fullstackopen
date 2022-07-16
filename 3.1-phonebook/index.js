@@ -1,7 +1,9 @@
 const express = require('express')
+const cors = require('cors')
 const morgan = require('morgan')
 const app = express()
 
+app.use(cors())
 app.use(express.json())
 
 morgan.token('body', function getBody (req) {
@@ -32,16 +34,19 @@ let persons = [
       "number": "39-23-6423122"
     }
 ]
-
+ 
 app.get('/api/persons', (request, response) => {
+  console.log(request, response)
   response.json(persons)
 })
 
 app.get('/api/info', (request, response) => {
+  console.log(request, response)
   response.send(`<h1>Phonebook has info for ${persons.length} people</h1><br>${new Date()}`)
 })
 
 app.get('/api/persons/:id', (request, response) => {
+  console.log(request, response)
   const id = Number(request.params.id)
   const person = persons.find(person => person.id === id)
   if (person) {
@@ -53,6 +58,7 @@ app.get('/api/persons/:id', (request, response) => {
 
 
 app.delete('/api/persons/:id', (request, response) => {
+  console.log(request, response)
   const id = Number(request.params.id)
   console.log(id)
   persons = persons.filter(person => person.id !== id)
@@ -61,7 +67,7 @@ app.delete('/api/persons/:id', (request, response) => {
 })
 
 app.post('/api/persons/', (request, response) => {
-  console.log(request)
+  console.log(request, response)
   
   const person = request.body
   
