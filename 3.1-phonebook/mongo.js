@@ -20,6 +20,8 @@ const personSchema = new mongoose.Schema({
 console.log("Defining Person")
 
 const Person = mongoose.model('Person', personSchema)
+
+console.log(`Connecting to ${url}`)
 const cnx = mongoose.connect(url,  {
   							 ssl: true,
   							 sslValidate: false
