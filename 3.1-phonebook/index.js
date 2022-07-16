@@ -87,7 +87,7 @@ app.put('/api/persons/:id', (request, response, next) => {
       })
   }
   
-  console.log(`POST request on ${request.params.id}`)
+  console.log(`PUT request on ${request.params.id}`)
   Person.findByIdAndUpdate(request.params.id, person, { new: true })
     .then(updatedPerson => {
       response.json(updatedPerson)
