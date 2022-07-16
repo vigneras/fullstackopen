@@ -19,8 +19,8 @@
     "eject": "react-scripts eject",
     "server": "json-server -p3001 --watch db.json -H  ec2-100-21-61-59.us-west-2.compute.amazonaws.com",
     "build:ui": "rm -rf build && npm run build",
-    "deploy": "aws s3 ",
-    "deploy:full": "npm run build:ui && npm run deploy",    
+    "deploy": "aws s3",
+    "deploy:full": "npm run build:ui && npm run deploy"    
   },
   "eslintConfig": {
     "extends": [

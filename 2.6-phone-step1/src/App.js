@@ -13,7 +13,7 @@ const App = () => {
   const [newFilter, setNewFilter] = useState('')
   const [newName, setNewName] = useState('')
   const [newNumber, setNewNumber] = useState('')
-  const [message, setMessage] = useState({msg:'Welcome!', className:'info'})
+  const [message, setMessage] = useState({msg:'Welcome!', className:'info', ex:null})
 
   
   const handleNameChange = (event) => {
@@ -48,7 +48,8 @@ const App = () => {
             setNewNumber('')
             setMessage({msg: `${personObject.name} succesfully updated`, className: `info`})
           }).catch(ex => {
-            setMessage({msg: `Server-side error when updating ${personObject.name}: ${ex}`, className: 'error'})
+            console.log(ex)
+            setMessage({msg: `Server-side error when updating ${personObject.name}`, className: 'error', ex: ex})
             setTimeout(() => setMessage({msg: null, className: 'info'}), 5000)
             })
     } else {
@@ -60,7 +61,8 @@ const App = () => {
               setNewNumber('')
               setMessage({msg: `${personObject.name} succesfully added`, className: `info`})
       }).catch(ex => {
-            setMessage({msg: `Server-side error when creating ${personObject.name}: ${ex}`, className: 'error'})
+            console.log(ex)
+            setMessage({msg: `Server-side error when creating ${personObject.name}`, className: 'error', ex: ex})
             setTimeout(() => setMessage({msg: null, className: 'info'}), 5000)
             })
     }
@@ -74,7 +76,7 @@ const App = () => {
           setPersons(persons.filter(p => p.id !== person.id))
           setMessage({msg: `${person.name} succesfully deleted`, className: `info`})
           }).catch(ex => {
-            setMessage({msg: `Server-side error when deleting ${person.name}: ${ex}`, className: 'error'})
+            setMessage({msg: `Server-side error when deleting ${person.name}`, className: 'error', ex: ex})
             setTimeout(() => setMessage({msg: null, className: 'info'}), 5000)
             })
   }
@@ -88,7 +90,7 @@ const App = () => {
       number: '-',
     })))
     .catch(error => {
-      setMessage({msg: `Error while retrieving data: ${error}`, className: 'info'})
+      setMessage({msg: `Error while retrieving data`, className: 'info', ex: error})
     })
   }, [])
   console.log('render', persons.length, 'notes')
@@ -96,7 +98,7 @@ const App = () => {
 
   return (
     <div>
-      <Notification msg={message.msg} className={message.className} />
+      <Notification msg={message.msg} className={message.className} ex={message.ex} />
       <h2>Phonebook</h2>
       <PersonFilter newfilter={newFilter} setNewFilter={setNewFilter} />
       <h3>Add a new</h3>
