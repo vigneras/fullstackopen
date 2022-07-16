@@ -67,6 +67,27 @@ app.post('/api/persons/', (request, response, next) => {
       })
   }
   
+  const p = new Person(person)
+  p.save()
+   .then(() => {
+    console.log(`New person created: ${p}`)
+    response.status(200).json(p)
+    })
+    .catch(err => next(err))
+})
+
+app.put('/api/persons/:id', (request, response, next) => {
+  console.log(request, response)
+  
+  const person = request.body
+  
+  if (!person || !person.name || !person.number) {
+      return response.status(400).json({
+        error: `Content is missing` 
+      })
+  }
+  
+  console.log(`POST request on ${request.params.id}`)
   Person.findByIdAndUpdate(request.params.id, person, { new: true })
     .then(updatedPerson => {
       response.json(updatedPerson)
