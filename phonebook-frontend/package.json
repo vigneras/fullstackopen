@@ -19,8 +19,8 @@
     "eject": "react-scripts eject",
     "server": "json-server -p3001 --watch db.json -H  ec2-100-21-61-59.us-west-2.compute.amazonaws.com",
     "build:ui": "rm -rf build && npm run build",
-    "deploy": "aws s3",
-    "deploy:full": "npm run build:ui && npm run deploy"    
+    "deploy": "aws s3 cp --recursive build/ s3://pivi-fullstack-training/",
+    "deploy:full": "npm run build:ui && npm run deploy"
   },
   "eslintConfig": {
     "extends": [
@@ -41,6 +41,12 @@
     ]
   },
   "devDependencies": {
+    "eslint": "^8.20.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.4",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.30.1",
     "json-server": "^0.17.0"
   }
 }
