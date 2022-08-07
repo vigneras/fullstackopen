@@ -45,6 +45,30 @@ test('Unique property is called id', async () => {
 	})
 })
 
+test('POST a single blog create a new db entry', async () => {
+	 const newBlog = {
+      title: 'A single blog create a new db entry',
+  		author: 'eipi',
+  		url: 'http://somewhere.com',
+  		likes: '1'
+	 }
+
+
+  await api
+    .post('/api/blogs')
+    .send(newBlog)
+    .expect(201)
+    .expect('Content-Type', /application\/json/)
+
+  const response = await api.get('/api/blogs')
+
+  const titles = response.body.map(r => r.title)
+
+  expect(response.body).toHaveLength(initialBlogs.length + 1)
+  expect(titles).toContain('A single blog create a new db entry')
+})
+
+
 afterAll(() => {
   mongoose.connection.close()
 })
