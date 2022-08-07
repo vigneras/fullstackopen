@@ -91,6 +91,35 @@ test('Likes default to 0', async () => {
   expect(newEntry.likes).toBe(0)
 })
 
+test('Missing title field result in 400', async () => {
+	 let newBlog = {
+      // title: 'Default Likes shoud be 0',
+  		author: 'eipi',
+  		url: 'http://somewhere.com',
+	 }
+
+
+  await api
+    .post('/api/blogs')
+    .send(newBlog)
+    .expect(400)
+})
+
+
+test('Missing url field result in 400', async () => {
+	 let newBlog = {
+      title: 'Default Likes shoud be 0',
+  		author: 'eipi',
+  		// url: 'http://somewhere.com',
+	 }
+
+
+  await api
+    .post('/api/blogs')
+    .send(newBlog)
+    .expect(400)
+})
+
 afterAll(() => {
   mongoose.connection.close()
 })
