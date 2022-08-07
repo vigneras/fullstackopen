@@ -129,6 +129,28 @@ describe('Deletion of notes', () => {
 	})
 })
 
+describe('Updating a blog', () => {
+	test('Updating a valid id actual update from DB', async () => {
+
+        const blogs = await helper.blogsInDb()
+		const blog = blogs[0]
+		blog.likes += 1
+		console.log(`Blog to be updated`, blog)
+
+
+		await api
+			.put(`/api/blogs/${blog.id}`)
+			.send(blog)
+			.expect(200)
+
+		const newBlogs = await helper.blogsInDb()
+		expect(newBlogs.length).toBe(initialBlogs.length)
+		const newBlog = newBlogs.find(b => b.title == blog.title)
+		expect(newBlog.likes).toBe(blog.likes)
+	})
+})
+
+
 
 afterAll(() => {
   mongoose.connection.close()
