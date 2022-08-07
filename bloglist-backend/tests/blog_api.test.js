@@ -36,8 +36,14 @@ test('A specific blog is returned from the whole set', async () => {
 	const response = await api.get('/api/blogs')
 	const contents = response.body.map(r => r.title)
 	expect(contents).toContainEqual('Story of good')
-}
-)
+})
+
+test('Unique property is called id', async () => {
+	const response = await api.get('/api/blogs')
+	response.body.forEach(r => {
+		expect(r.id).toBeDefined( )
+	})
+})
 
 afterAll(() => {
   mongoose.connection.close()
