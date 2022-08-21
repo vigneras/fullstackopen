@@ -1,3 +1,5 @@
+const bcrypt = require('bcrypt')
+
 const Blog = require('../models/blog')
 const User = require('../models/user')
 
@@ -14,6 +16,13 @@ const initialBlogs = [{
 		url: 'http://moliere.com/',
 		likes: 1
 	}
+]
+
+const initialUsers = [{
+		username: 'eipi',
+		name: 'Pierre Vigneras',
+		password: 'sekret',
+	},
 ]
 
 const nonExistingId = async () => {
@@ -36,5 +45,5 @@ const usersInDb = async () => {
 
 
 module.exports = {
-  initialBlogs, nonExistingId, blogsInDb, usersInDb
+  initialBlogs, initialUsers, nonExistingId, blogsInDb, usersInDb
 }

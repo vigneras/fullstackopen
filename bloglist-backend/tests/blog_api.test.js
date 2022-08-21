@@ -1,19 +1,56 @@
 const mongoose = require('mongoose')
 const supertest = require('supertest')
+const bcrypt = require('bcrypt')
 const app = require('../app')
-const api = supertest(app)
+
 const Blog = require('../models/blog')
+const User = require('../models/user')
+
 const helper = require('./test_helper')
 
 const initialBlogs = helper.initialBlogs
+const initialUsers = helper.initialUsers
+
+var loggedInToken = '';
 
 beforeEach(async () => {
+  await User.deleteMany({})
+  let userObject = new User({
+  		username: initialUsers[0].username,
+  		name: initialUsers[0].name,
+  		passwordHash: await bcrypt.hash(initialUsers[0].password, 10)
+  	})
+
+  await userObject.save()
   await Blog.deleteMany({})
   let blogObject = new Blog(initialBlogs[0])
+  blogObject.user = userObject
   await blogObject.save()
   blogObject = new Blog(initialBlogs[1])
   await blogObject.save()
+
+
+  const response = await api.post('/api/login')
+		.send({
+    		username: initialUsers[0].username,
+    		password: initialUsers[0].password,
+    	})
+
+  loggedInToken = response.body.token;
 })
+
+
+const hook = (method = 'post') => (args) =>
+  supertest(app)
+    [method](args)
+    .set('Authorization', `Bearer ${loggedInToken}`);
+
+const api = {
+  post: hook('post'),
+  get: hook('get'),
+  put: hook('put'),
+  delete: hook('delete'),
+};
 
 describe('when there is initially some blogs saved', () => {
 	test('All blogs are returned as json', async () => {
@@ -52,6 +89,7 @@ describe('Addition of new blogs', () => {
 			.expect('Content-Type', /application\/json/)
 
 		const response = await api.get('/api/blogs')
+									.set('Authorization', `Bearer ${loggedInToken}`)
 
 		const titles = response.body.map(r => r.title)
 
@@ -118,6 +156,7 @@ describe('Deletion of notes', () => {
         const blogs = await helper.blogsInDb()
 		const blog = blogs[0]
 		console.log(`Blog to be removed`, blog)
+		console.log(`Users: ${JSON.stringify(await helper.usersInDb())}`)
 		await api
 			.delete(`/api/blogs/${blog.id}`)
 			.expect(204)
